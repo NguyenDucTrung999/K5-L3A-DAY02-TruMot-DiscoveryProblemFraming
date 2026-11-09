@@ -4,7 +4,7 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Trừ Một
 - Candidate problem nhóm chọn (1 câu):
 - Quyết định cuối (Go / Not Yet / No-Go):
 
@@ -12,8 +12,8 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
+| 1 | | | Nhóm trưởng | NguyenDucTrung999 |
+| 2 | Bùi Văn Lâm | 2A202603400 | Phụ trách viết Problem Statement & Ranh giới AI | LamBui |
 | 3 | | | | |
 | 4 | | | | |
 
@@ -37,20 +37,22 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### BuiVanLam-2A202603400
 
 **Phần việc phụ trách:**
 
--
+- Viết Problem Statement (v0 và v1), thiết lập tiêu chí Eval và Boundary AI.
+- Phân tích rủi ro & lựa chọn mức can thiệp (Rule vs Workflow vs Agent).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Hoàn thiện báo cáo cá nhân với 10 problem scan và Top 3 Problem Cards chi tiết.
+- Đóng góp luận điểm mô hình Hybrid Workflow và các ranh giới an toàn cho bài toán nhóm.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- File `report/individual/2A202603400_BuiVanLam.md`.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Hiểu sâu sắc về việc tránh bẫy "solution-first" và tầm quan trọng của việc xác lập ranh giới an toàn (Operational Boundary) khi đưa AI vào quy trình thực tế.
