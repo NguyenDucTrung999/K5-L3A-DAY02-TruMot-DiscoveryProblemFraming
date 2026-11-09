@@ -5,10 +5,10 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Trừ Một
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): Gợi ý lộ trình ăn uống và hoạt động giải trí theo ngân sách cho nhóm khách hàng tại TTTM Vincom Retail (Candidate #1).
+- Quyết định cuối: Go / Not Yet / No-Go (sẽ chốt ở CP6)
 
 ---
 
@@ -21,9 +21,9 @@
 | 1 | Nguyễn Đức Trung | Khi đến TTTM Vincom cuối tuần cùng nhóm bạn, tôi muốn có lộ trình gợi ý quán ăn và hoạt động phù hợp ngân sách, để không mất cả tiếng đắn đo và trễ giờ xem phim | Khách hàng nhóm bạn trẻ, gia đình | Bàn bạc, so sánh giá (20 phút) và tìm gian hàng giữa các tầng (15 phút). Tổng mất 50 phút | Khách hàng có thể bỏ qua (skip) những cửa hàng tiềm năng họ muốn ghé khi đi theo lộ trình cố định không, ví dụ bỏ qua quầy lưu niệm trên đường đi? (Hiếu hỏi) |
 | 2 | Nguyễn Đức Trung | Khi trụ sạc xe điện gặp sự cố hỏng súng sạc, tôi muốn nhanh chóng tìm được trạm lân cận còn trụ trống tương thích, để tiếp tục ca chạy không trễ hẹn khách | Tài xế Xanh SM, điều phối viên vận hành | Tra cứu tọa độ GPS và trạng thái trụ sạc trống thủ công (tốn 8–10 phút/lượt) | Đã có nhiều công cụ và bản đồ hỗ trợ trạm sạc tồn tại rồi, liệu việc dùng AI ở đây có thực sự cần thiết không? (Lâm hỏi) |
 | 3 | Nguyễn Đức Trung | Khi tiếp nhận phản ánh hư hỏng từ cư dân qua app, tôi muốn nhanh chóng phân loại đúng lĩnh vực kỹ thuật và phân khu, để giao việc cho đúng tổ phụ trách | Nhân viên trực ban BQL Vinhomes | Đọc hiểu mô tả dân dã và tra cứu lịch trực phân công thủ công (tốn 10 phút/phiếu) | Dữ liệu thông tin cá nhân và phản ánh sự cố của cư dân có được đảm bảo an toàn và bảo mật không? (Khoa hỏi) |
-| 4 | Bùi Văn Lâm | Khi phát hiện sự cố hạ tầng/thiết bị trong căn hộ, tôi muốn thông tin được tiếp nhận và giao đúng kỹ thuật viên xử lý để sinh hoạt không bị gián đoạn và không phải gọi điện giục nhiều lần. | Cư dân khu đô thị (CSKH & Kỹ thuật BQL hỗ trợ) | Hàng đợi giờ cao điểm dồn ứ (chờ 10 phút) do CSKH phải đọc hiểu mô tả tự do, xem ảnh và gán việc thủ công (mất 9 phút/ticket). | "Nếu phần lớn sự cố là cơ bản thì dùng form dropdown hoặc Rule là đủ, tại sao cần AI?" (Trung) |
-| 5 | Bùi Văn Lâm | Khi nhận bàn giao căn hộ hoặc yêu cầu bảo hành, tôi muốn các lỗi xây dựng được ghi nhận minh bạch và phân rõ trách nhiệm từng nhà thầu kèm hạn hoàn thành để sửa dứt điểm, không đùn đẩy trách nhiệm. | Cư dân nhận nhà (Kỹ sư BQL & Nhà thầu thi công) | Nhập liệu thủ công từ biên bản giấy punch list và đối soát gói thầu (55 phút/căn); tranh chấp trách nhiệm bảo hành kéo dài 3–5 ngày. | "Làm sao AI phân biệt được lỗi do thi công của nhà thầu hay do cư dân tự làm xước khi dọn đồ vào?" (Hiếu) |
-| 6 | Bùi Văn Lâm | Khi theo dõi lịch khám sức khỏe định kỳ và tiêm chủng của gia đình, tôi muốn số hóa các phiếu khám/sổ tiêm giấy để tự động nhận lịch nhắc theo phác đồ, tránh trễ các mốc khám/tiêm quan trọng mà không phải tự lật tìm giấy tờ. | Cư dân / Phụ huynh có con nhỏ & người già (Điều dưỡng Vinmec hỗ trợ) | Nhập liệu thủ công từ phiếu khám giấy mất 15 phút/hồ sơ; phụ huynh hay quên/trễ lịch tiêm 1–2 tuần; điều dưỡng mất 2–3 tiếng/ngày gọi điện nhắc từng người. | "Dữ liệu y tế là thông tin nhạy cảm (PHI), làm sao bảo mật và làm sao ngăn AI tự ý chẩn đoán bệnh sai lệch?" (Khoa) |
+| 4 | Bùi Văn Lâm | Khi phát hiện sự cố hạ tầng/thiết bị trong căn hộ, tôi muốn thông tin được tiếp nhận và giao đúng kỹ thuật viên xử lý để sinh hoạt không bị gián đoạn và không phải gọi điện giục nhiều lần. | Cư dân khu đô thị (CSKH & Kỹ thuật BQL hỗ trợ) | Hàng đợi giờ cao điểm dồn ứ (chờ 10 phút) do CSKH phải đọc hiểu mô tả tự do, xem ảnh và gán việc thủ công (mất 9 phút/ticket). | Nếu phần lớn sự cố là cơ bản thì dùng form dropdown hoặc Rule là đủ, tại sao cần AI? (Trung) |
+| 5 | Bùi Văn Lâm | Khi nhận bàn giao căn hộ hoặc yêu cầu bảo hành, tôi muốn các lỗi xây dựng được ghi nhận minh bạch và phân rõ trách nhiệm từng nhà thầu kèm hạn hoàn thành để sửa dứt điểm, không đùn đẩy trách nhiệm. | Cư dân nhận nhà (Kỹ sư BQL & Nhà thầu thi công) | Nhập liệu thủ công từ biên bản giấy punch list và đối soát gói thầu (55 phút/căn); tranh chấp trách nhiệm bảo hành kéo dài 3–5 ngày. | Làm sao AI phân biệt được lỗi do thi công của nhà thầu hay do cư dân tự làm xước khi dọn đồ vào? (Hiếu) |
+| 6 | Bùi Văn Lâm | Khi theo dõi lịch khám sức khỏe định kỳ và tiêm chủng của gia đình, tôi muốn số hóa các phiếu khám/sổ tiêm giấy để tự động nhận lịch nhắc theo phác đồ, tránh trễ các mốc khám/tiêm quan trọng mà không phải tự lật tìm giấy tờ. | Cư dân / Phụ huynh có con nhỏ & người già (Điều dưỡng Vinmec hỗ trợ) | Nhập liệu thủ công từ phiếu khám giấy mất 15 phút/hồ sơ; phụ huynh hay quên/trễ lịch tiêm 1–2 tuần; điều dưỡng mất 2–3 tiếng/ngày gọi điện nhắc từng người. | Dữ liệu y tế là thông tin nhạy cảm (PHI), làm sao bảo mật và làm sao ngăn AI tự ý chẩn đoán bệnh sai lệch? (Khoa) |
 | 7 | Đỗ Minh Hiếu | Khi khách ghi địa chỉ bằng tiếng Việt/Anh/Hoa lẫn lộn hoặc gửi ảnh, tôi muốn biết đúng cửa hàng khách muốn nhận, để ô `取件門市 (địa chỉ)` không bị trống bằng AI | Người vận hành bàn xử lý đơn | Tra tay địa chỉ → mã cửa hàng chuẩn: 8–18 lượt/ngày (10–20% trong 80–90 đơn) | Dùng AI thì tốc độ có nhanh bằng script không? (Trung) |
 | 8 | Đỗ Minh Hiếu | Khi vừa upload file đơn lên sàn, tôi muốn biết trước dòng nào sẽ bị từ chối, để không phải sửa rồi upload lại | Người vận hành | Chỉ phát hiện lỗi sau khi upload: 17,1–21,4% dòng bị từ chối mỗi lô | AI có đảm bảo bảo mật thông tin khách hàng? (Lâm) |
 | 9 | Đỗ Minh Hiếu | Khi đồng nghiệp nhắn Zalo nhờ lên gấp một đơn, tôi muốn đơn đó tự động đi ngay trong ngày, human intervention minimal, để khách không phải chờ lô hôm sau | Đồng nghiệp (3–5 người), người vận hành | Phải ngồi canh Zalo; khoảng 5–10 đơn/ngày, rải ngẫu nhiên trong ngày | Vấn đề của API bên thứ 3 (Zalo) không hỗ trợ tài khoản cá nhân thì có nhận được thông tin khách hàng và orchestrate tool tự động không? (Khoa) |
@@ -58,17 +58,25 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| **Candidate #1 (Trung):** Gợi ý lộ trình ăn uống & hoạt động nhóm tại TTTM Vincom | 5 | 4 | 4 | 4 | 5 | 4 | 5 | **31** |
+| **Candidate #4 (Lâm):** Tiếp nhận & chuyển giao phản ánh sự cố kỹ thuật Vinhomes | 5 | 5 | 3 | 4 | 3 | 5 | 4 | **29** |
+| **Candidate #7 (Hiếu):** Chuẩn hóa địa chỉ đơn hàng TMĐT đa ngôn ngữ | 4 | 4 | 5 | 4 | 3 | 4 | 2 | **26** |
 
 **Candidate được chọn:**
+Candidate #1 — Gợi ý lộ trình ăn uống và hoạt động giải trí theo ngân sách cho nhóm khách hàng tại TTTM Vincom Retail (do Nguyễn Đức Trung đưa ra).
 
 **Vì sao chọn:**
+1. **Tính phổ biến và vừa sức buổi lab (5/5):** Nỗi đau mất 30–50 phút bàn bạc, tranh cãi chọn quán ăn và tìm đường giữa các tầng khi đi đông người là trải nghiệm thực tế của 100% sinh viên và giới trẻ. Nhóm có thể triển khai phỏng vấn The Mom Test ngay lập tức với 5–10 sinh viên xung quanh mà không gặp rào cản truy cập hệ thống.
+2. **Cả nhóm cùng hiểu sâu domain (5/5):** Tất cả 4 thành viên đều thường xuyên đi TTTM Vincom, nắm rõ các phân khúc ẩm thực, mức chi tiêu và hành vi tiêu dùng thực tế.
+3. **So sánh rõ ràng 4 mức can thiệp AI:** Thể hiện rõ sự khác biệt giữa No AI (bảng chỉ dẫn tầng), Rule (bộ lọc theo giá và loại đồ ăn), Workflow (tổng hợp sở thích đa thành viên trong nhóm), và Agent (tự động đặt bàn và thanh toán).
 
 **Vì sao loại các candidate còn lại:**
+1. **Loại Candidate #4 (Vinhomes Resident Support):** Dù quy trình nghiệp vụ rất chặt chẽ, nhưng nhóm gặp rào cản lớn về tính khả thi dữ liệu (Feasibility): nhóm không có quyền truy cập log ticket thật của BQL Vinhomes và không thể phỏng vấn trực tiếp nhân sự BQL trong thời gian ngắn của buổi lab; các số liệu SLA chủ yếu là ước lượng nên điểm bằng chứng và vừa sức lab chỉ đạt 3/5.
+2. **Loại Candidate #7 (Chuẩn hóa địa chỉ TMĐT):** Bài toán phụ thuộc vào dữ liệu nội bộ và API sàn cross-border của một doanh nghiệp cụ thể (bạn Hiếu nắm rõ), 3 thành viên còn lại không hiểu sâu domain này (điểm hiểu domain chỉ đạt 2/5) nên khó cùng tham gia phản biện và bảo vệ đồ án.
 
 **Xử lý bất đồng (nếu có):**
+- *Diễn biến bất đồng:* Ban đầu bạn Lâm bảo vệ mạnh bài toán Vinhomes vì có cấu trúc ranh giới an toàn (Boundary) và kịch bản phân loại rất rõ; bạn Hiếu đề xuất bài toán TMĐT vì đã có sẵn dữ liệu lỗi thực tế trong repo cá nhân; bạn Trung bảo vệ bài toán Vincom Retail vì tính đại chúng và khả thi kiểm chứng.
+- *Cách giải quyết:* Nhóm thống nhất không tranh luận theo cảm tính mà sử dụng bảng chấm điểm 7 tiêu chí của Double Diamond. Khi đối chiếu tiêu chí "Vừa sức lab" và "Cả nhóm hiểu domain", bài toán Vincom Retail đạt điểm cao nhất (31/35 điểm). Bạn Lâm và bạn Hiếu đã đồng thuận gác lại bài toán riêng để tập trung toàn lực cùng nhóm triển khai bài toán Vincom cho các checkpoint tiếp theo.
 
 ---
 
