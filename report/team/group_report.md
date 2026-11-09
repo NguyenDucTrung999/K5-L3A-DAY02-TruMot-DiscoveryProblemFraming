@@ -152,37 +152,97 @@ Tổng hợp:
 
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
-```text
+```mermaid
+flowchart TD
+    Start([🚀 Nhóm 3–5 bạn đến Vincom Mega Mall Ocean Park]) --> B1["🗣️ 1. Đứng tại sảnh/bãi xe thăm dò sở thích (15')"]
+    B1 --> B2["📱 2. Lướt Foody/Google Maps xem review & giá (15')"]
+    B2 --> B3["💥 3. Tranh luận & thoả hiệp chốt quán (10')<br/><b>🔴 BOTTLENECK CHÍNH (Tổng khâu chọn: 40')</b>"]
+    B3 --> B4["🏃 4. Đi tìm gian hàng & leo thang cuốn giữa các tầng (10')"]
+    B4 --> Check{"Quán còn bàn trống?"}
+    
+    Check -->|"✓ Còn bàn"| Success["🍽️ Vào quán ăn uống<br/><b>Tổng thời gian: 50 phút</b>"]
+    Check -->|"✗ Hết bàn / Chờ >30'"| Fail["⚠️ Quán quá đông / Kín bàn"]
+    
+    Fail -->|"Quay lại từ đầu"| B1
+    Fail --> Risk["🎬 HẬU QUẢ: Trễ suất chiếu phim CGV đã đặt trước"]
 
+    classDef normal fill:#f8f9fa,stroke:#adb5bd,stroke-width:1.5px,color:#212529
+    classDef bottleneck fill:#ffebee,stroke:#e53935,stroke-width:2.5px,color:#b71c1c
+    classDef risk fill:#fff3e0,stroke:#fb8c00,stroke-width:2px,color:#e65100
+    classDef success fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20
+
+    class B1,B2,B4 normal
+    class B3 bottleneck
+    class Fail,Risk risk
+    class Success success
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Nhóm khách (3–5 bạn trẻ) | Nhu cầu ăn uống chung khi vừa tới TTTM | Danh sách sở thích, kiêng cữ rời rạc của từng người | 15 phút (mỗi lần đi TTTM) | Mỗi người một ý kiến (người thích lẩu, người thích nướng, người ăn chay/kiêng cay) |
+| 2 | Nhóm khách | Tên một vài quán quen hoặc lướt Google Maps/Foody | Thông tin menu, khoảng giá, vị trí tầng | 15 phút (mỗi lần đi) | Mất thời gian đọc review, giá cả trên mạng không đồng nhất hoặc chưa cập nhật |
+| 3 | Nhóm khách | Thông tin giá và món của 3–4 quán tiềm năng | Quyết định chọn 1 quán duy nhất | 10 phút (mỗi lần đi) | **Bottleneck chính:** Xung đột về ngân sách cá nhân (người muốn <150k, người muốn ăn sang) và sở thích |
+| 4 | Nhóm khách | Biển chỉ dẫn tầng hoặc sơ đồ sảnh TTTM | Tìm đến đúng cửa gian hàng | 10 phút (mỗi lần đi) | Vincom Mega Mall diện tích sàn lớn, các tầng bố trí quanh co dễ đi lạc hoặc ngược hướng |
+| 5 | Nhóm khách & Nhân viên quán | Yêu cầu bàn cho 3–5 người | Có bàn ngồi hoặc phải quay đầu tìm quán khác | 2–5 phút | Nếu quán kín chỗ, nhóm phải quay lại Bước 1, mất thêm 20–30 phút và nguy cơ trễ giờ xem phim |
 
 **Bottleneck chính:**
+Bước 1, 2 và 3 chiếm tới **40 / 50 phút** tổng hành trình. Điểm nghẽn cốt lõi nằm ở việc **thương lượng và thoả hiệp các ràng buộc chéo** (ngân sách khác nhau, sở thích ẩm thực trái ngược, áp lực thời gian của lịch xem phim đã đặt trước) kết hợp với việc thiếu thông tin mặt bằng tầng tại chỗ.
 
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
-```text
+```mermaid
+flowchart TD
+    subgraph HumanInput ["👥 1. NHÓM KHÁCH HÀNG (CON NGƯỜI)"]
+        A1["📝 Nhập sở thích, kiêng cữ, ngân sách & giờ xem phim (2')"]
+    end
 
+    subgraph SystemEngine ["⚙️ 2 & 3. HỆ THỐNG XỬ LÝ (RULE + AI)"]
+        S1["⚡ RULE / GRAPH ENGINE<br/>Lọc quán theo ngân sách & tính khoảng cách tầng (1')"]
+        S2["🤖 AI LLM WORKFLOW<br/>Phân tích ngữ cảnh nhóm, sinh 2–3 kịch bản lộ trình (1')"]
+        A1 --> S1 --> S2
+    end
+
+    subgraph HumanDecision ["👥 4. RA QUYẾT ĐỊNH (HITL)"]
+        S2 --> D1{"🗳️ Nhóm biểu quyết chọn kịch bản?"}
+        
+        D1 -->|"✓ Đồng ý 1 kịch bản"| Move["🚶 Di chuyển theo lộ trình & thời gian đệm gợi ý (6–8')"]
+        D1 -->|"✗ Cả 3 kịch bản không hợp"| Fallback["🔄 FALLBACK (No AI / Rule)<br/>Chuyển sang danh mục gian hàng theo tầng có bộ lọc tĩnh"]
+        
+        Move --> Goal["🎉 Hoàn tất ăn uống hợp ngân sách & Xem phim đúng giờ<br/><b>Tổng thời gian: 10–12 phút</b>"]
+    end
+
+    subgraph SafetyBoundary ["🛡️ RANH GIỚI AN TOÀN (BOUNDARY)"]
+        B_Note["⚠️ AI chỉ GỢI Ý (Augment)<br/>🚫 AI KHÔNG tự đặt bàn<br/>🚫 AI KHÔNG can thiệp thanh toán/ví tiền<br/>🚫 AI KHÔNG tự quyết định thay người dùng"]
+    end
+
+    classDef human fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef rule fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+    classDef ai fill:#f3e5f5,stroke:#8e24aa,stroke-width:2.5px,color:#4a148c
+    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px,color:#f57f17
+    classDef goal fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20
+    classDef fallback fill:#ffe0b2,stroke:#f57c00,stroke-width:2px,color:#e65100
+    classDef boundary fill:#f5f5f5,stroke:#757575,stroke-width:1.5px,stroke-dasharray: 5 5,color:#424242
+
+    class A1,Move human
+    class S1 rule
+    class S2 ai
+    class D1 decision
+    class Goal goal
+    class Fallback fallback
+    class B_Note boundary
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 5 bước | 4 bước | Tích hợp khâu bàn bạc và tra cứu vào 1 bước nhập liệu |
+| Tổng thời gian | 50 phút | 10–12 phút | Target cam kết: giảm xuống dưới 15 phút |
+| Số bước thủ công | 5/5 | 2/4 | Con người chỉ nhập nhu cầu và duyệt kịch bản (HITL) |
+| Bottleneck chính | Tranh cãi chốt quán & tìm đường (40') | Nhóm biểu quyết chọn 1 trong 3 kịch bản (2-3') | Đưa điểm nghẽn về bước con người kiểm soát chất lượng |
+| Rủi ro mới phát sinh | Trễ giờ xem phim, xung đột nhóm | AI gợi ý quán đang sửa chữa hoặc đóng cửa; hallucination menu giá | Giải quyết bằng Boundary + Fallback quay về danh sách tầng + Rule lọc dữ liệu active |
 
 ---
 
@@ -190,16 +250,17 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Nhóm khách hàng trẻ (sinh viên, nhóm bạn 3–5 người) đến TTTM Vincom Mega Mall Ocean Park vào cuối tuần có kết hợp ăn uống và xem phim |
+| **Quy trình** | Khi đến TTTM: Đứng sảnh bàn bạc sở thích ➔ Lướt điện thoại tra cứu menu/giá ➔ Tranh cãi chốt quán ➔ Tìm đường giữa các tầng ➔ Đến quán ăn |
+| **Bottleneck** | Mất 40 phút ở khâu bàn bạc, tra cứu thông tin và thương lượng do sở thích ẩm thực trái ngược, ngân sách không đồng đều và thiếu thông tin mặt bằng |
+| **Impact** | Tốn 50 phút lãng phí mỗi chuyến đi chơi; 100% các nhóm bạn gặp ức chế tranh cãi; nguy cơ trễ suất chiếu phim CGV đã mua vé trước |
+| **Success Metric** | - **Baseline:** 50 phút/lượt (đo qua khảo sát 5 nhóm bạn thực tế tại Vincom Ocean Park)<br>- **Target:** giảm xuống dưới 15 phút/lượt<br>- **Cách đo:** Bấm giờ thực tế từ lúc mở công cụ nhập sở thích đến khi nhóm có mặt tại cửa quán ăn trong 10 lượt test |
+| **Boundary** | AI chỉ đóng vai trò trợ lý gợi ý (Augment); AI không tự chốt quán, không tự đặt bàn/giữ chỗ, không truy cập thẻ tín dụng/thanh toán; Con người (nhóm khách) giữ quyền biểu quyết cuối cùng |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- *Phản biện từ AI Coach:* "Success Metric hiện tại chỉ đo tốc độ (dưới 15 phút) mà chưa đo chất lượng trải nghiệm: nếu nhóm chốt quán rất nhanh nhưng đồ ăn dở, không hợp khẩu vị hoặc lộ trình tính toán sai khiến nhóm bị trễ giờ xem phim thì giải pháp vẫn là thất bại."
+- *Nhóm phản hồi và tiếp thu:* Nhóm hoàn toàn đồng ý. Trong bản Problem Statement v1 (CP6), nhóm sẽ bổ sung 2 tiêu chí chất lượng bắt buộc: (1) Điểm hài lòng của cả nhóm về lựa chọn quán ăn đạt tối thiểu 4/5 sao; (2) Tỷ lệ đúng giờ xem phim đạt 100% (luôn có thời gian đệm an toàn 15 phút trước giờ chiếu).
 
 ---
 
