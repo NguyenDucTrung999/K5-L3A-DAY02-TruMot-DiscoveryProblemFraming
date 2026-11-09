@@ -4,7 +4,7 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Trừ Một
 - Candidate problem nhóm chọn (1 câu):
 - Quyết định cuối (Go / Not Yet / No-Go):
 
@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Nguyễn Đức Trung | 2A202603423 | Nhóm trưởng, Điều phối chung | NguyenDucTrung999 |
+| 2 | Bùi Văn Lâm | 2A202603400 | Phụ trách viết Problem Statement & Ranh giới AI | LamBui |
+| 3 | Đỗ Minh Hiếu | 2A202603402 | Phụ trách kỹ thuật & quy trình | minhiuss |
+| 4 | Trần Đăng Khoa | 2A202603364 | Phụ trách kiểm chứng & phản biện | khoatran134563-2k3 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -37,20 +37,84 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### NguyenDucTrung-2A202603423
 
 **Phần việc phụ trách:**
 
--
+- Nhóm trưởng điều phối, hợp nhất mã nguồn Git, quản trị file nhật ký `AI_LOG_MR.md`.
+- Xây dựng 10 problem scan và Top 3 Problem Cards cá nhân (Vincom Retail, Xanh SM, Vinhomes).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Khởi tạo quy chuẩn `AI_LOG_MR.md` cho toàn nhóm.
+- Đóng góp 3 bài toán kèm câu hỏi phản biện tại mục 2.1 bảng Pitch của nhóm.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- File `report/individual/2A202603423_NguyenDucTrung.md`.
+- Hàng 1-3 trong mục 2.1 của `report/team/group_report.md`.
 
 **Điều mình học được từ phần nhóm:**
 
--
+- Kỹ năng điều phối nhóm, hợp nhất nhánh Git và lắng nghe các góc nhìn phản biện đa chiều về bài toán thực tế.
+
+### BuiVanLam-2A202603400
+
+**Phần việc phụ trách:**
+
+- Viết Problem Statement (v0 và v1), thiết lập tiêu chí Eval và Boundary AI.
+- Phân tích rủi ro & lựa chọn mức can thiệp (Rule vs Workflow vs Agent).
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thiện báo cáo cá nhân với 10 problem scan và Top 3 Problem Cards chi tiết.
+- Đóng góp luận điểm mô hình Hybrid Workflow và các ranh giới an toàn cho bài toán nhóm.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- File `report/individual/2A202603400_BuiVanLam.md`.
+- Hàng 4-6 trong mục 2.1 của `report/team/group_report.md`.
+
+**Điều mình học được từ phần nhóm:**
+
+- Hiểu sâu sắc về việc tránh bẫy "solution-first" và tầm quan trọng của việc xác lập ranh giới an toàn (Operational Boundary) khi đưa AI vào quy trình thực tế.
+
+### DoMinhHieu-2A202603402
+
+**Phần việc phụ trách:**
+
+- Phụ trách kỹ thuật & quy trình.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thành báo cáo cá nhân với 10 problem scan và Top 3 Problem Cards.
+- Đóng góp hàng 7-9 trong mục 2.1 của `report/team/group_report.md`.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- File `report/individual/2A202603402_DoMinhHieu.md`.
+- Hàng 7-9 trong mục 2.1 của `report/team/group_report.md`.
+
+**Điều mình học được từ phần nhóm:**
+
+- Đang cập nhật.
+
+### TranDangKhoa-2A202603364
+
+**Phần việc phụ trách:**
+
+- Phụ trách kiểm chứng & phản biện.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Hoàn thành báo cáo cá nhân với 10 problem scan và Top 3 Problem Cards.
+- Đóng góp hàng 10-12 trong mục 2.1 của `report/team/group_report.md`.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- File `report/individual/2A202603364_TranDangKhoa.md`.
+- Hàng 10-12 trong mục 2.1 của `report/team/group_report.md`.
+
+**Điều mình học được từ phần nhóm:**
+
+- Đang cập nhật.
