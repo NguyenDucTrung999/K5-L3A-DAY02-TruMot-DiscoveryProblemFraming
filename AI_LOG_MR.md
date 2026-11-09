@@ -192,7 +192,7 @@
 - **Nhanh nguon:** TranDangKhoa, DoMinhHieu, buivanlam, NguyenDucTrung-2A202603423
 - **Nhanh dich:** main
 - **Thoi gian:** 2026-11-09 17:05
-- **Ma Commit (Git log hash):** 00e7053
+- **Ma Commit (Git log hash):** 2c58301
 - **Thong diep commit:** Hop nhat toan dien group_report.md: Khoa (3.1-3.2), Hieu (3.3), Lam (4-5), Trung (6-10), dong bo TEAM.md
 
 | Muc thong tin | Chi tiet khai bao |

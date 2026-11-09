@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Nguyễn Đức Trung | 2A202603423 | Nhóm trưởng, Điều phối chung | NguyenDucTrung999 |
-| 2 | Bùi Văn Lâm | 2A202603400 | Phụ trách viết Problem Statement & Ranh giới AI | LamBui |
-| 3 | Đỗ Minh Hiếu | 2A202603402 | Phụ trách kỹ thuật & quy trình | minhiuss |
-| 4 | Trần Đăng Khoa | 2A202603364 | Phụ trách kiểm chứng & phản biện | khoatran134563-2k3 |
+| 1 | Nguyễn Đức Trung | 2A202603423 | Nhóm trưởng, Điều phối chung, Phụ trách Mức can thiệp AI & Quyết định | NguyenDucTrung999 |
+| 2 | Bùi Văn Lâm | 2A202603400 | Phụ trách Quy trình trước/sau & Problem Statement v0 | LamBui |
+| 3 | Đỗ Minh Hiếu | 2A202603402 | Phụ trách Phân cụm Cluster & Research giải pháp thị trường | minhiuss |
+| 4 | Trần Đăng Khoa | 2A202603364 | Phụ trách Cây OST & Kiểm chứng thực tế The Mom Test | khoatran134563-2k3 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,13 +25,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | Cả nhóm | Trung điều phối | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | Đỗ Minh Hiếu | Trần Đăng Khoa | Assumption map, snapshot hoặc survey |
-| CP4 — Research | Đỗ Minh Hiếu | Nguyễn Đức Trung | Bảng research có link |
-| CP5 — Quy trình trước/sau | Trần Đăng Khoa | Đỗ Minh Hiếu | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | Bùi Văn Lâm | Nguyễn Đức Trung | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Đức Trung | Bùi Văn Lâm | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | Nguyễn Đức Trung | Cả nhóm | 4 rủi ro + Go/Not Yet/No-Go + ngưỡng dừng |
+| CP3 — Hội tụ nhóm | Cả nhóm | Trung điều phối | Bảng Pitch 12 hàng, 3 cụm Cluster, cây OST, bảng chấm điểm shortlist |
+| CP4 — Kiểm chứng | Trần Đăng Khoa | Đỗ Minh Hiếu | Assumption map, 3 Interview Snapshot The Mom Test có tín hiệu phản bác |
+| CP4 — Research | Đỗ Minh Hiếu | Nguyễn Đức Trung | Bảng research 3 giải pháp kèm link (Google Maps, Tripadvisor, ShopeeFood/Grab) |
+| CP5 — Quy trình trước/sau | Bùi Văn Lâm | Đỗ Minh Hiếu | Sơ đồ luồng hiện tại & tương lai (Rule + AI + HITL), bảng Before/After |
+| CP5 — Problem Statement v0 | Bùi Văn Lâm | Nguyễn Đức Trung | Problem Statement v0 đủ 6 trường kèm phản hồi phản biện AI Coach |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Đức Trung | Bùi Văn Lâm | Ma trận, so sánh 4 mức, AI Canvas, câu hỏi PAIR, Problem Statement v1, bộ 10 test case eval |
+| CP6 — Quyết định | Nguyễn Đức Trung | Cả nhóm | Đánh giá 4 rủi ro, kết luận Go pilot Smart City, ngưỡng dừng định lượng 30% |
 
 ## Cá nhân
 
@@ -41,22 +41,22 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Nhóm trưởng điều phối, hợp nhất mã nguồn Git, quản trị file nhật ký `AI_LOG_MR.md`.
+- Nhóm trưởng điều phối, hợp nhất mã nguồn Git trên nhánh main, quản trị nhật ký `AI_LOG_MR.md`.
 - Xây dựng 10 problem scan và Top 3 Problem Cards cá nhân (Vincom Retail, Xanh SM, Vinhomes).
 - Phụ trách hoàn thiện Gói 4 của nhóm: Mục 6 (Mức can thiệp AI: ma trận, so sánh 4 mức, AI Canvas, Google PAIR), Mục 7 (Problem Statement v1, tiêu chí eval, 10 test case eval mẫu cho Bonus B3), Mục 8 (4 rủi ro sản phẩm, quyết định Go, pilot nhỏ nhất, ngưỡng dừng), Mục 9 & 10 (Hạn chế, hướng tiếp theo và tài liệu tham khảo).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
-- Khởi tạo quy chuẩn `AI_LOG_MR.md` cho toàn nhóm và thực hiện các lượt hợp nhất nhánh.
-- Đóng góp 3 bài toán kèm câu hỏi phản biện tại mục 2.1 bảng Pitch của nhóm.
+- Khởi tạo quy chuẩn `AI_LOG_MR.md` cho toàn nhóm và thực hiện các lượt hợp nhất nhánh sạch sẽ, không xung đột.
+- Đóng góp 3 bài toán kèm câu hỏi phản biện tại mục 2.1 bảng Pitch; bảo vệ bài toán Vincom Retail đạt 35/35 điểm ở shortlist mục 2.4.
 - Hoàn thiện toàn bộ Mục 6, 7, 8, 9, 10 trong báo cáo nhóm `group_report.md` đạt chuẩn Rubric.
 - Xây dựng bộ dữ liệu 10 test case eval mẫu cho bước AI gợi ý lộ trình để đạt điểm Bonus B3 (+3 điểm).
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - File `report/individual/2A202603423_NguyenDucTrung.md` hoàn chỉnh từ Mục 1 đến Mục 7.
-- Hàng 1-3 trong mục 2.1 của `report/team/group_report.md`.
-- Toàn bộ Mục 6, 7, 8, 9, 10 của `report/team/group_report.md`.
+- Hàng 1-3 trong mục 2.1, Mục 2.4 và toàn bộ Mục 6, 7, 8, 9, 10 của `report/team/group_report.md`.
+- Commit cá nhân: `4f7c3ec` trên nhánh `NguyenDucTrung-2A202603423`; commit hợp nhất: `bcb5d3c` trên nhánh `main`.
 
 **Điều mình học được từ phần nhóm:**
 
@@ -78,6 +78,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - File `report/individual/2A202603400_BuiVanLam.md`.
 - Hàng 4-6 trong mục 2.1 và toàn bộ Mục 4 & 5 trong `report/team/group_report.md`.
+- Commit: `eed4c76` trên nhánh `buivanlam`.
 
 **Điều mình học được từ phần nhóm:**
 
@@ -98,6 +99,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - File `report/individual/2A202603402_DoMinhHieu.md`.
 - Hàng 7-9 trong mục 2.1, Mục 2.2 và Mục 3.3 của `report/team/group_report.md`.
+- Commit: `8c6b984` và `3c029aa` trên nhánh `DoMinhHieu`.
 
 **Điều mình học được từ phần nhóm:**
 
@@ -118,6 +120,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - File `report/individual/2A202603364_TranDangKhoa.md`.
 - Hàng 10-12 trong mục 2.1, Mục 2.3, Mục 3.1 và Mục 3.2 của `report/team/group_report.md`.
+- Commit: `ae76751` trên nhánh `TranDangKhoa`.
 
 **Điều mình học được từ phần nhóm:**
 
