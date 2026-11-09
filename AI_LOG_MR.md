@@ -73,3 +73,23 @@
 | **AI da sai hoac hoi hot o dau** | Ban dau AI de trong cot cau hoi phan bien va ghi them so phut "chua do" cho dong 7, 8; sau do da duoc chinh lai |
 | **Toi da tu sua lai bang nhan dinh gi** | Toi tu viet lai y tuong cua cac dong 7-9 va dien cau hoi phan bien nhan duoc tu thanh vien nhom (tren cot "Cau hoi phan bien nhan duoc") |
 | **Trang thai kiem tra truoc khi gop** | Da fetch group truoc khi push. Nhanh DoMinhHieu khong co xung dot; group/main co them commit 3a1b945 (file ca nhan cua Khoa), khong cham file nao toi sua. Chua pull main moi nhat vao nhanh |
+
+---
+
+### Luot gop #3: Nhanh [DoMinhHieu] -> main
+- **Nguoi thuc hien:** Do Minh Hieu (MSSV: 2A202603402)
+- **Nhanh nguon:** DoMinhHieu
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 12:29
+- **Ma Commit (Git log hash):** 6ef228e
+- **Thong diep commit:** group_report 2.1-2.2: sync pitch rows from main, fill cluster table
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | report/team/group_report.md muc 2.1 (dong 1-6 va 10-12 dong bo tu main, dong 7-9 giu nguyen) va muc 2.2 (bang Cluster A, B, C) |
+| **Noi dung cong viec da lam** | CP3: dong bo bang Pitch day du 12 dong tu main; dien bang Cluster 2.2 |
+| **Muc dich su dung AI** | AI goi y cach gom 12 candidate thanh 3 cluster (A, B, C) tu bang Pitch tren main; ho tro commit va push len nhanh |
+| **AI da giup duoc gi** | Dua ra ban nhap 3 cluster kem pattern chung; chi ra #7 co the nam o A hoac B va #1 la ung vien khop yeu nhat o B |
+| **AI da sai hoac hoi hot o dau** | Ban nhap cua AI chi dua tren noi dung bang Pitch, chua qua thao luan nhom nen chua phai ket luan chung cua nhom |
+| **Toi da tu sua lai bang nhan dinh gi** | Toi tu viet lai ten cluster va pattern chung theo cach hieu cua minh (vi du doi ten cluster A, doi cach goi cho #5), khong chep nguyen ban nhap cua AI |
+| **Trang thai kiem tra truoc khi gop** | Da fetch group truoc khi commit. Nhanh DoMinhHieu chua duoc cap nhat voi main (commit d2e6cbc va 3a1b945); noi dung dong 1-6 va 10-12 duoc dong bo tay tu main, chua merge nen khi gop co the can xu ly xung dot |
