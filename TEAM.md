@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Nguyễn Đức Trung | 2A202603423 | Nhóm trưởng, Điều phối chung, Phụ trách Mức can thiệp AI & Quyết định | NguyenDucTrung999 |
-| 2 | Bùi Văn Lâm | 2A202603400 | Phụ trách Quy trình trước/sau & Problem Statement v0 | LamBui |
-| 3 | Đỗ Minh Hiếu | 2A202603402 | Phụ trách Phân cụm Cluster & Research giải pháp thị trường | minhiuss |
-| 4 | Trần Đăng Khoa | 2A202603364 | Phụ trách Cây OST & Kiểm chứng thực tế The Mom Test | khoatran134563-2k3 |
+| 1 | Nguyễn Đức Trung | 2A202603423 | Trưởng nhóm | NguyenDucTrung999 |
+| 2 | Bùi Văn Lâm | 2A202603400 | Thành viên | LamBui |
+| 3 | Đỗ Minh Hiếu | 2A202603402 | Thành viên | minhiuss |
+| 4 | Trần Đăng Khoa | 2A202603364 | Thành viên | khoatran134563-2k3 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
