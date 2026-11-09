@@ -171,9 +171,9 @@
 - **Nguoi thuc hien:** Nguyen Duc Trung (MSSV: 2A202603423)
 - **Nhanh nguon:** NguyenDucTrung-2A202603423
 - **Nhanh dich:** main
-- **Thoi gian:** 2026-11-09 15:15
-- **Ma Commit (Git log hash):** dang cap nhat
-- **Thong diep commit:** Hoan thanh bao cao ca nhan (muc 4-7) va Goi 4 bao cao nhom (muc 6-10 kem 10 test case eval Bonus B3)
+- **Thoi gian:** 2026-11-09 15:34
+- **Ma Commit (Git log hash):** 4f7c3ec
+- **Thong diep commit:** hoan thanh bai nhom duoc phan cong va bai ca nhan
 
 | Muc thong tin | Chi tiet khai bao |
 |---|---|
@@ -184,3 +184,23 @@
 | **AI da sai hoac hoi hot o dau** | AI danh gia rui ro Feasibility la Cao vi nghi can train model rieng; AI goi y cac chi so thanh cong chung chung |
 | **Toi da tu sua lai bang nhan dinh gi** | Dinh luong hoa tat ca success metric (50 phut -> 2 phut, chenh lech chi phi < 10%); tu viet toan bo reflection ca nhan; thiet lap nguong dung ro rang cho pilot |
 | **Trang thai kiem tra truoc khi gop** | Da kiem tra dong sua chinh xac o Goi 4, khong cham vao Goi 1, 2, 3 cua cac thanh vien khac |
+
+---
+
+### Luot gop #009: Hop nhat toan bo noi dung cac thanh vien (Khoa, Hieu, Lam, Trung) -> main
+- **Nguoi thuc hien:** Nguyen Duc Trung (MSSV: 2A202603423) - Nhom truong
+- **Nhanh nguon:** TranDangKhoa, DoMinhHieu, buivanlam, NguyenDucTrung-2A202603423
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 17:05
+- **Ma Commit (Git log hash):** 00e7053
+- **Thong diep commit:** Hop nhat toan dien group_report.md: Khoa (3.1-3.2), Hieu (3.3), Lam (4-5), Trung (6-10), dong bo TEAM.md
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | `report/team/group_report.md` (toan bo cac muc tu 1 den 10), `TEAM.md`, `AI_LOG_MR.md` |
+| **Noi dung cong viec da lam** | 1. Tich hop Muc 3.1 (Assumption Map) va 3.2 (3 Interview Snapshots The Mom Test co tin hieu phan bac) tu nhanh TranDangKhoa.<br>2. Tich hop Muc 3.3 (Research 3 giai phap: Google Maps, Tripadvisor, ShopeeFood/Grab kem link) tu nhanh DoMinhHieu.<br>3. Tich hop Muc 4 (Quy trinh truoc/sau) va Muc 5 (Problem Statement v0 kem phan hoi AI Coach) tu nhanh buivanlam.<br>4. Dong bo logic: lam sach toan bo icon/emoji trong so do Mermaid (Rule 10), thong nhat dia diem TTTM Vincom Mega Mall Smart City va ghep noi chi so thoi gian Before/After.<br>5. Cap nhat day du phan dong gop ca nhan cua ca 4 thanh vien trong TEAM.md. |
+| **Muc dich su dung AI** | Ho tro doi chieu bat dong giua cac nhanh, kiem tra regex emoji Unicode va can chinh xung dot format bang bieu |
+| **AI da giup duoc gi** | Phat hien cac diem cấn ve dia diem va don vi do thoi gian giua cac muc; ho tro lam sach emoji trong Mermaid |
+| **AI da sai hoac hoi hot o dau** | Khong co |
+| **Toi da tu sua lai bang nhan dinh gi** | Nhom truong truc tiep thong nhat logic thanh 1 kich ban nhat quan tu Muc 1 den Muc 10 |
+| **Trang thai kiem tra truoc khi gop** | Clean merge 100%, 0 loi xung dot, 0 emoji, day du 10/10 muc trong group_report.md |

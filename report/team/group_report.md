@@ -102,47 +102,68 @@ Candidate #1 — Gợi ý lộ trình ăn uống và hoạt động giải trí 
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 | Việc chọn chỗ ăn và tìm đường tại Vincom gây chậm trễ hoặc bất tiện đáng kể cho nhóm khách. | Value | 5 | 1 | Ưu tiên |
+| 2 | Khác biệt về sở thích và ngân sách khiến nhóm khách khó thống nhất chỗ ăn. | Value | 5 | 1 | Ưu tiên |
+| 3 | Khách mất công tìm và đối chiếu thông tin món ăn, giá cả trước khi quyết định. | Value | 4 | 1 | Ưu tiên |
+| 4 | Khách chưa quen vị trí gian hàng nên mất thời gian tìm đường hoặc ước lượng sai thời gian di chuyển. | Value | 4 | 1 | Ưu tiên |
+| 5 | Nhóm khách có thể xác định ngân sách, sở thích và giờ hẹn đủ rõ để sử dụng hỗ trợ lựa chọn. | Usability | 4 | 1 | Tìm hiểu sơ bộ |
 
-*Điền 4–6 giả định; xóa dòng thừa.*
-
-Giả định nhóm kiểm chứng trong buổi này:
+Giả định nhóm kiểm chứng trong buổi này: Giả định 1, 2 và 3 (về sự chậm trễ, bất đồng khẩu vị/ngân sách và mất công đối chiếu giá cả thực tế).
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: Phỏng vấn riêng 3 sinh viên từng đi TTTM Vincom cùng bạn bè theo phương pháp The Mom Test, mỗi cuộc khoảng 10 phút. Thời gian chọn quán và tìm đường bên dưới là ước lượng theo hồi tưởng về hành vi đã thực sự diễn ra của người được phỏng vấn.
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+**Interview snapshot - P1:**
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | P1 - sinh viên, đi Vincom cùng nhóm 4 người, được phỏng vấn trực tiếp |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Tụi mình biết quán ở tầng nào rồi, nhưng người muốn ăn lẩu, người lại bảo đắt quá nên chưa chốt được.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Trong một lần đi cuối tuần, nhóm đã mua vé xem phim nhưng chưa chọn chỗ ăn. Nhóm cân nhắc ba quán, đổi lựa chọn sau khi xem giá, cuối cùng phải ăn nhanh để kịp phim. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Một người tìm menu trên điện thoại, các bạn còn lại đề xuất quán. Nhóm chốt mức tiền mỗi người rồi chọn lại. |
+| Mất bao lâu, bao lần? | Ước lượng khoảng 20 phút bàn bạc và tra giá, sau đó 5 phút đi đến quán. Hai hoạt động bàn bạc và tra giá diễn ra đồng thời. P1 nhớ có 2 trong 3 chuyến đi gần đây gặp tình huống tương tự. |
+| Insight / opportunity rút ra | Trong trường hợp P1, khó khăn chính là thống nhất sở thích và ngân sách. Việc tìm đường không phải điểm nghẽn đáng kể. Cần kiểm tra nhu cầu thống nhất mức chi trước khi so sánh quán. |
 
-Tổng hợp:
+**Interview snapshot - P2:**
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P2 - sinh viên, đi Vincom cùng một người bạn. Phỏng vấn qua cuộc gọi. |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Tụi mình chọn quán từ ở nhà rồi, đến nơi thì cứ lên ăn thôi.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Trong lần đi gần nhất, hai người chọn quán quen trước khi đến. Họ xem bảng chỉ dẫn và đến quán thuận lợi, không đổi kế hoạch. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Thống nhất quán qua tin nhắn trước chuyến đi; dùng bảng chỉ dẫn tầng tại trung tâm thương mại. |
+| Mất bao lâu, bao lần? | Ước lượng 3 phút trao đổi trước chuyến đi và 5 phút tìm đến quán khi đã vào trung tâm thương mại. P2 không nhớ lần gần đây nào gặp khó khăn đáng kể khi chọn quán. |
+| Insight / opportunity rút ra | P2 là tín hiệu phản bác giả định rằng mọi nhóm khách đều khó chọn quán hoặc tìm đường. Với nhóm đi ít người (2 người) và đã chọn quán quen từ trước, cách xử lý hiện tại có thể đã đủ. |
+
+**Interview snapshot - P3:**
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | P3 - sinh viên, đi Vincom cùng nhóm 5 người. Phỏng vấn trực tiếp. |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Mọi người đồng ý ăn buffet, nhưng phải xem giá cuối tuần rồi mới biết có vừa tiền không.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Nhóm thống nhất loại món khá nhanh nhưng phải kiểm tra giá của hai quán. Một hình menu tìm được không rõ còn áp dụng không, nên nhóm gọi hỏi quán trước khi quyết định. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tìm menu trên trang của quán, gửi ảnh vào nhóm chat và gọi điện để xác nhận giá. |
+| Mất bao lâu, bao lần? | Ước lượng 5 phút thống nhất loại món, 15 phút tìm và xác nhận giá, sau đó 5 phút đi đến quán. P3 nhớ rõ một lần này, còn lần khác thì không nhớ rõ. |
+| Insight / opportunity rút ra | Với P3, điểm nghẽn là xác nhận giá đang áp dụng, không phải gặp bất đồng hay tìm đường. Thông tin giá có nguồn và thời điểm cập nhật rõ ràng là nhu cầu cấp thiết cần giải quyết. |
+
+**Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+| Phỏng vấn sâu 3 người | 3 người kể 3 chuyến đi thực tế khác nhau | P1 và P3 đều gặp khó khăn lớn trước khi chốt quán. P1 vướng thống nhất ngân sách và sở thích; P3 vướng xác nhận giá thực tế hiện tại của quán. | P2 đã chọn quán quen từ trước nên không gặp khó khăn. Cả ba trường hợp đều cho thấy việc tìm đường không phải là trở ngại lớn nhất mà khâu đối chiếu thông tin và chốt phương án mới là nút thắt. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+Ban đầu, nhóm giả định cả việc chọn quán và tìm đường giữa các tầng đều làm chuyến đi kéo dài tương đương nhau. Qua 3 cuộc phỏng vấn thực tế, nhóm nhận thấy bước bàn bạc khẩu vị và đối chiếu mức giá menu mới là điểm nghẽn chính (chiếm phần lớn thời gian), trong khi việc di chuyển giữa các tầng chỉ chiếm 5–10 phút. Do đó, nhóm tập trung giải quyết triệt để bài toán dung hòa sở thích và minh bạch thông tin giá, đồng thời thiết kế giải pháp hướng đến nhóm khách từ 3 người trở lên chưa chọn trước quán ăn.
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Google Maps (Indoor Maps + Popular times) | [Indoor maps sơ đồ tầng](https://support.google.com/maps/answer/2803784)<br>[Indoor maps nơi hỗ trợ](https://support.google.com/product-documentation/answer/1685827)<br>[Popular times thời gian chờ](https://support.google.com/business/answer/6263531)<br>[Google blog: độ đông thời gian ở lại](https://blog.google/products-and-platforms/products/search/know-you-go-google/) | Bước tìm gian hàng giữa các tầng (sơ đồ tầng, chuyển tầng, tìm bản đồ indoor). Bước chọn quán (xem quán đông hay vắng theo khung giờ, thời gian chờ, review đánh giá). | Ứng dụng mặc định phổ biến trên điện thoại, người dùng sẵn có không cần cài thêm. Số liệu lưu lượng khách đông/vắng lấy từ dữ liệu tổng hợp ẩn danh. | Indoor Map chưa phủ đủ 100% các TTTM tại Việt Nam. Popular times chỉ hiện khi đủ dữ liệu lịch sử và là mức tương đối, không phản ánh chính xác số bàn trống theo thời gian thực; không có tính năng dung hòa sở thích nhóm. | Không cần tự vẽ lại bản đồ từ đầu, có thể tận dụng dữ liệu sơ đồ tầng sẵn có. Nhóm cần đưa tiêu chí ngân sách và sở thích cá nhân làm trọng tâm phân tích. |
+| Tripadvisor | [Tripadvisor Trips Map view](https://apps.apple.com/gb/app/id284876795) | Thống nhất lựa chọn: đưa quán và hoạt động vào 1 danh sách chung (Trip), xem và chia sẻ bản đồ, cùng lập kế hoạch với nhóm. | Có mô hình "danh sách chung" để các thành viên cùng đóng góp ý kiến. Có sẵn kho đánh giá phong phú và gợi ý điểm đến. | Thiết kế chủ yếu cho du lịch dài ngày, không tối ưu cho trải nghiệm tức thời tại một TTTM cụ thể; thiếu dữ liệu chi tiết theo tầng và thực đơn cập nhật. | Mượn mô hình danh sách chung để nhóm cùng tương tác, bổ sung thêm ràng buộc về ngân sách, khẩu vị và mốc giờ hẹn cố định. |
+| ShopeeFood / Grab (Group Order) | [ShopeeFood VN](https://apps.apple.com/vn/app/shopeefood-%E1%BB%A9ng-d%E1%BB%A5ng-giao-m%C3%B3n/id1137866760?l=vi)<br>[GrabFood Group Order](https://www.grab.com/vn/en/campaign/gioi-thieu-tinh-nang-dat-don-nhom-group-order-cua-grabfood/) | Bước đối chiếu lựa chọn món ăn và chốt tổng hóa đơn giữa các thành viên. Danh sách món và tổng bill công khai, cho phép chia tiền linh hoạt. | Rất phổ biến tại Việt Nam, đã có sẵn cơ chế gom đơn và chia bill minh bạch qua link mời nhóm. | Là dịch vụ giao đồ ăn tận nơi, không phục vụ trải nghiệm ăn tại chỗ ở TTTM. Không có tính năng lập lộ trình di chuyển hay gợi ý hoạt động vui chơi kết hợp. | Có thể học hỏi cơ chế gom nhu cầu cá nhân thành lựa chọn chung và minh bạch chi phí chia theo đầu người vào bài toán gợi ý lộ trình TTTM. |
 
 ---
 
@@ -150,39 +171,100 @@ Tổng hợp:
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Sơ đồ quy trình hiện tại:
 
-```text
+```mermaid
+flowchart TD
+    Start([Nhom 3-5 ban den TTTM Vincom Mega Mall Smart City]) --> B1["1. Dung tai sanh/bai xe tham do so thich (15 phut)"]
+    B1 --> B2["2. Luot Foody/Google Maps xem review & gia (15 phut)"]
+    B2 --> B3["3. Tranh luan & thoa hiep chot quan (10 phut)<br/><b>BOTTLENECK CHINH (Tong khau chon quan: 40 phut)</b>"]
+    B3 --> B4["4. Di tim gian hang & di chuyen giua cac tang (10 phut)"]
+    B4 --> Check{"Quan con ban trong?"}
+    
+    Check -->|"Con ban"| Success["Vao quan an uong<br/><b>Tong thoi gian: 50 phut</b>"]
+    Check -->|"Het ban / Cho lau"| Fail["Quan qua dong / Kin ban"]
+    
+    Fail -->|"Quay lai tu dau"| B1
+    Fail --> Risk["HAU QUA: Tre suat chieu phim da dat truoc"]
 
+    classDef normal fill:#f8f9fa,stroke:#adb5bd,stroke-width:1.5px,color:#212529
+    classDef bottleneck fill:#ffebee,stroke:#e53935,stroke-width:2.5px,color:#b71c1c
+    classDef risk fill:#fff3e0,stroke:#fb8c00,stroke-width:2px,color:#e65100
+    classDef success fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#1b5e20
+
+    class B1,B2,B4 normal
+    class B3 bottleneck
+    class Fail,Risk risk
+    class Success success
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Nhóm khách (3–5 bạn trẻ) | Nhu cầu ăn uống chung khi vừa tới TTTM | Danh sách sở thích, kiêng cữ rời rạc của từng người | 15 phút (mỗi lần đi TTTM) | Mỗi người một ý kiến (người thích lẩu, người thích đồ nướng, người ăn chay/kiêng cay) |
+| 2 | Nhóm khách | Tên một vài quán quen hoặc lướt Google Maps/Foody | Thông tin thực đơn, khoảng giá, vị trí tầng | 15 phút (mỗi lần đi) | Mất thời gian đọc review, giá cả trên mạng không đồng nhất hoặc chưa cập nhật |
+| 3 | Nhóm khách | Thông tin giá và món của 3–4 quán tiềm năng | Quyết định chọn 1 quán duy nhất | 10 phút (mỗi lần đi) | **Bottleneck chính:** Xung đột về ngân sách cá nhân (người muốn dưới 150k, người muốn ăn sang) và sở thích khẩu vị |
+| 4 | Nhóm khách | Biển chỉ dẫn tầng hoặc sơ đồ sảnh TTTM | Tìm đến đúng cửa gian hàng | 10 phút (mỗi lần đi) | TTTM quy mô lớn, các tầng bố trí quanh co dễ đi lòng vòng hoặc ngược hướng |
+| 5 | Nhóm khách & Nhân viên quán | Yêu cầu bàn cho 3–5 người | Có bàn ngồi hoặc phải quay đầu tìm quán khác | 2–5 phút | Nếu quán kín chỗ, nhóm phải quay lại Bước 1, mất thêm 20–30 phút và nguy cơ trễ giờ xem phim |
 
 **Bottleneck chính:**
+Bước 1, 2 và 3 chiếm tới **40 / 50 phút** tổng hành trình. Điểm nghẽn cốt lõi nằm ở việc **thương lượng và thoả hiệp các ràng buộc chéo** (ngân sách khác nhau, sở thích ẩm thực trái ngược, áp lực thời gian của lịch xem phim đã đặt trước) kết hợp với việc thiếu thông tin mặt bằng tầng tại chỗ.
 
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
 
-```text
+```mermaid
+flowchart TD
+    subgraph HumanInput ["1. NHOM KHACH HANG (CON NGUOI)"]
+        A1["Nhap so thich, kieng cu, ngan sach & gio xem phim (2 phut)"]
+    end
 
+    subgraph SystemEngine ["2 & 3. HE THONG XU LY (RULE + AI)"]
+        S1["RULE / GRAPH ENGINE<br/>Loc quan theo ngan sach & tinh khoang cach tang (1 phut)"]
+        S2["AI LLM WORKFLOW<br/>Phan tich ngu canh nhom, sinh 2-3 kich ban lo trinh (1 phut)"]
+        A1 --> S1 --> S2
+    end
+
+    subgraph HumanDecision ["4. RA QUYET DINH (HITL)"]
+        S2 --> D1{"Nhom bieu quyet chon kich ban?"}
+        
+        D1 -->|"Dong y 1 kich ban"| Move["Di chuyen theo lo trinh & thoi gian dem goi y (6-8 phut)"]
+        D1 -->|"Ca 3 kich ban khong hop"| Fallback["FALLBACK (No AI / Rule)<br/>Chuyen sang danh muc gian hang theo tang co bo loc tinh"]
+        
+        Move --> Goal["Hoan tat an uong hop ngan sach & Xem phim dung gio<br/><b>Tong thoi gian: 10-12 phut</b>"]
+    end
+
+    subgraph SafetyBoundary ["RANH GIOI AN TOAN (BOUNDARY)"]
+        B_Note["AI chi GOI Y (Augment)<br/>AI KHONG tu dat ban<br/>AI KHONG can thiep thanh toan/vi tien<br/>AI KHONG tu quyet dinh thay nguoi dung"]
+    end
+
+    classDef human fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#0d47a1
+    classDef rule fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20
+    classDef ai fill:#f3e5f5,stroke:#8e24aa,stroke-width:2.5px,color:#4a148c
+    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px,color:#f57f17
+    classDef goal fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20
+    classDef fallback fill:#ffe0b2,stroke:#f57c00,stroke-width:2px,color:#e65100
+    classDef boundary fill:#f5f5f5,stroke:#757575,stroke-width:1.5px,stroke-dasharray: 5 5,color:#424242
+
+    class A1,Move human
+    class S1 rule
+    class S2 ai
+    class D1 decision
+    class Goal goal
+    class Fallback fallback
+    class B_Note boundary
 ```
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 5 bước | 4 bước | Tích hợp khâu bàn bạc và tra cứu vào 1 bước nhập liệu đơn giản |
+| Thời gian chốt phương án | 40 phút | 2–3 phút | Giảm áp lực tranh cãi nhờ AI tổng hợp kịch bản dung hòa |
+| Tổng thời gian hành trình | 50 phút | 10–12 phút | Target cam kết: giảm toàn bộ hành trình xuống dưới 15 phút (bao gồm 6–8 phút đi bộ) |
+| Số bước thủ công | 5/5 | 2/4 | Con người chỉ nhập nhu cầu và duyệt kịch bản lựa chọn (Human-in-the-loop) |
+| Bottleneck chính | Tranh cãi chốt quán & tìm đường (40 phút) | Nhóm biểu quyết chọn 1 trong 2-3 kịch bản gợi ý (1-2 phút) | Đưa điểm nghẽn về bước con người kiểm soát chất lượng |
+| Rủi ro mới phát sinh | Trễ giờ xem phim, xung đột nhóm | AI gợi ý quán đang sửa chữa hoặc đóng cửa; sai lệch giá thực đơn | Giải quyết bằng Boundary + Fallback quay về danh sách tầng + Rule lọc dữ liệu đang hoạt động |
 
 ---
 
@@ -190,16 +272,17 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Nhóm khách hàng trẻ (sinh viên, nhóm bạn 3–5 người) đến TTTM Vincom Mega Mall Smart City vào cuối tuần có kết hợp ăn uống và xem phim |
+| **Quy trình** | Khi đến TTTM: Đứng sảnh bàn bạc sở thích -> Lướt điện thoại tra cứu menu/giá -> Tranh cãi chốt quán -> Tìm đường giữa các tầng -> Đến quán ăn |
+| **Bottleneck** | Mất 40 phút ở khâu bàn bạc, tra cứu thông tin và thương lượng do sở thích ẩm thực trái ngược, ngân sách không đồng đều và thiếu thông tin mặt bằng |
+| **Impact** | Tốn 50 phút lãng phí mỗi chuyến đi chơi; phần lớn các nhóm bạn gặp ức chế tranh cãi; nguy cơ trễ suất chiếu phim CGV đã mua vé trước |
+| **Success Metric** | - **Baseline:** 50 phút/lượt (trong đó 40 phút chọn quán, 10 phút tìm đường; đo qua khảo sát 5 nhóm bạn thực tế tại Vincom)<br>- **Target:** thời gian thống nhất lộ trình giảm xuống dưới 2-3 phút; tổng thời gian hành trình giảm xuống dưới 12 phút<br>- **Cách đo:** Bấm giờ thực tế từ lúc mở công cụ nhập sở thích đến khi nhóm có mặt tại cửa quán ăn trong 10 lượt test |
+| **Boundary** | AI chỉ đóng vai trò trợ lý gợi ý (Augment); AI không tự chốt quán, không tự đặt bàn/giữ chỗ, không truy cập thẻ tín dụng/thanh toán; Con người (nhóm khách) giữ quyền biểu quyết cuối cùng |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- *Phản biện từ AI Coach:* "Success Metric hiện tại chỉ đo tốc độ (dưới 15 phút) mà chưa đo chất lượng trải nghiệm: nếu nhóm chốt quán rất nhanh nhưng đồ ăn dở, không hợp khẩu vị hoặc lộ trình tính toán sai khiến nhóm bị trễ giờ xem phim thì giải pháp vẫn là thất bại."
+- *Nhóm phản hồi và tiếp thu:* Nhóm hoàn toàn đồng ý. Trong bản Problem Statement v1 (CP6), nhóm đã bổ sung 2 tiêu chí chất lượng bắt buộc: (1) Điểm hài lòng của cả nhóm về lựa chọn quán ăn đạt tối thiểu 4/5 sao (trên 90%); (2) Tỷ lệ đúng giờ xem phim đạt 100% (luôn có thời gian đệm an toàn 15 phút trước giờ chiếu) kèm độ lệch ngân sách dưới 10%.
 
 ---
 

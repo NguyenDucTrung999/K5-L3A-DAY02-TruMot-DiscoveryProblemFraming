@@ -66,18 +66,18 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Viết Problem Statement (v0 và v1), thiết lập tiêu chí Eval và Boundary AI.
-- Phân tích rủi ro & lựa chọn mức can thiệp (Rule vs Workflow vs Agent).
+- Viết Problem Statement v0, thiết lập ranh giới an toàn Boundary AI.
+- Phân tích quy trình trước/sau (sơ đồ luồng, điểm nghẽn, bảng Before/After).
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Hoàn thiện báo cáo cá nhân với 10 problem scan và Top 3 Problem Cards chi tiết.
-- Đóng góp luận điểm mô hình Hybrid Workflow và các ranh giới an toàn cho bài toán nhóm.
+- Hoàn thành toàn bộ Mục 4 (Quy trình trước/sau với sơ đồ Mermaid và bảng Before/After) và Mục 5 (Problem Statement v0) trong `report/team/group_report.md`.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - File `report/individual/2A202603400_BuiVanLam.md`.
-- Hàng 4-6 trong mục 2.1 của `report/team/group_report.md`.
+- Hàng 4-6 trong mục 2.1 và toàn bộ Mục 4 & 5 trong `report/team/group_report.md`.
 
 **Điều mình học được từ phần nhóm:**
 
@@ -87,38 +87,38 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- Phụ trách kỹ thuật & quy trình.
+- Phụ trách kỹ thuật & research giải pháp thị trường.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Hoàn thành báo cáo cá nhân với 10 problem scan và Top 3 Problem Cards.
-- Đóng góp hàng 7-9 trong mục 2.1 của `report/team/group_report.md`.
+- Hoàn thành Mục 2.2 (Gom 3 cụm Cluster) và toàn bộ Mục 3.3 (Research 3 giải pháp thực tế: Google Maps, Tripadvisor, ShopeeFood/Grab) trong `report/team/group_report.md`.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - File `report/individual/2A202603402_DoMinhHieu.md`.
-- Hàng 7-9 trong mục 2.1 của `report/team/group_report.md`.
+- Hàng 7-9 trong mục 2.1, Mục 2.2 và Mục 3.3 của `report/team/group_report.md`.
 
 **Điều mình học được từ phần nhóm:**
 
-- Đang cập nhật.
+- Học hỏi được phương pháp khảo sát và đối chiếu các giải pháp có sẵn trên thị trường để tìm ra khoảng trống giá trị (value gap) cho bài toán của nhóm.
 
 ### TranDangKhoa-2A202603364
 
 **Phần việc phụ trách:**
 
-- Phụ trách kiểm chứng & phản biện.
+- Phụ trách kiểm chứng thực tế & phản biện.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Hoàn thành báo cáo cá nhân với 10 problem scan và Top 3 Problem Cards.
-- Đóng góp hàng 10-12 trong mục 2.1 của `report/team/group_report.md`.
+- Hoàn thiện Mục 2.3 (Cây OST rút gọn), Mục 3.1 (Assumption Map) và Mục 3.2 (Kiểm chứng phỏng vấn sâu 3 đối tượng theo chuẩn The Mom Test) trong `report/team/group_report.md`.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - File `report/individual/2A202603364_TranDangKhoa.md`.
-- Hàng 10-12 trong mục 2.1 của `report/team/group_report.md`.
+- Hàng 10-12 trong mục 2.1, Mục 2.3, Mục 3.1 và Mục 3.2 của `report/team/group_report.md`.
 
 **Điều mình học được từ phần nhóm:**
 
-- Đang cập nhật.
+- Nắm vững kỹ thuật phỏng vấn khai thác hành vi đã qua theo The Mom Test để thu thập bằng chứng thật và tín hiệu phản bác, tránh bẫy các câu hỏi giả định thiếu căn cứ.
