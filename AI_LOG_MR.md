@@ -53,3 +53,23 @@
 | CP5 Quy trình | Nhờ AI vẽ quy trình trước/sau từ code `daily.py`, `fill_template.py`, `validate.py` | Phân bước nào Rule, bước nào AI, bước nào người; đối chiếu được với những gì đã chạy thật ngày 10-09 (132 đơn, 10 dòng cần người) | Phiên đầu ghi nguồn benchmark là "session 5" mà không kiểm lại; bước đọc file kết quả (Phase 3b) trong repo **chưa xây** nhưng bản đầu dễ đọc như đã có | AI tự rà lại và sửa nguồn thành "benchmark 10-03", đánh dấu bước 7 là **CHƯA XÂY**. Đây là sửa của AI, không phải của tôi. |
 | CP5–6 Problem Statement | Nhờ AI viết Problem Statement v0 rồi v1 | Tách được v0 và v1 với lý do đổi rõ ràng (thêm "chọn nhầm = 0" vì chọn nhầm cửa hàng tệ hơn để trống) | Mục tiêu "≤ 4 lượt/ngày" và các ngưỡng dừng là con số **AI đề xuất**, không phải số đo; metric thời gian chưa có baseline | AI đã gắn nhãn "đề xuất" cho các số này. |
 | CP6 Mức can thiệp / quyết định | Nhờ AI so sánh 4 mức, chấm 4 rủi ro, đề xuất quyết định "Go, phạm vi nhỏ" | Lý do không chọn mức đơn giản hơn dựa trên số thật (benchmark còn 3 dòng dư đều là chữ Latin; ngày 10-09 có 4/10 dòng cần người là chữ Latin) | Quyết định "Go" là đề xuất của AI khi chưa có số phút tiết kiệm được (Value chấm "Trung bình" chỉ dựa trên số lượt/ngày). Chính sách gửi địa chỉ khách cho Gemini chưa được kiểm tra | App Script vẫn còn dư địa xử lý data, việc implement AI còn cần tính chi phí và mức độ scale nên chưa quyết định GO|
+
+---
+
+### Luot gop #2: Nhanh [DoMinhHieu] -> main
+- **Nguoi thuc hien:** Do Minh Hieu (MSSV: 2A202603402)
+- **Nhanh nguon:** DoMinhHieu
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 11:59
+- **Ma Commit (Git log hash):** f61f5dd
+- **Thong diep commit:** group_report 2.1: fill pitch rows 7-9 (Do Minh Hieu)
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | report/team/group_report.md muc 2.1 (dong 7, 8, 9 cua bang Pitch) |
+| **Noi dung cong viec da lam** | CP3: dien 3 Problem Card cua Do Minh Hieu vao bang Pitch, va cau hoi phan bien nhan duoc tu nhom |
+| **Muc dich su dung AI** | Chi dung de sao chep noi dung 3 card tu bao cao ca nhan vao bang, va ho tro commit/push len nhanh |
+| **AI da giup duoc gi** | Sao chep dung noi dung tu bao cao ca nhan; kiem tra khong co thong tin nhay cam truoc khi commit; rebase/kiem tra xung dot khi push |
+| **AI da sai hoac hoi hot o dau** | Ban dau AI de trong cot cau hoi phan bien va ghi them so phut "chua do" cho dong 7, 8; sau do da duoc chinh lai |
+| **Toi da tu sua lai bang nhan dinh gi** | Toi tu viet lai y tuong cua cac dong 7-9 va dien cau hoi phan bien nhan duoc tu thanh vien nhom (tren cot "Cau hoi phan bien nhan duoc") |
+| **Trang thai kiem tra truoc khi gop** | Da fetch group truoc khi push. Nhanh DoMinhHieu khong co xung dot; group/main co them commit 3a1b945 (file ca nhan cua Khoa), khong cham file nao toi sua. Chua pull main moi nhat vao nhanh |
