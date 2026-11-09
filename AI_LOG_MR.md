@@ -107,20 +107,40 @@
 
 ---
 
-### Luot gop #005: Nhanh NguyenDucTrung-2A202603423 -> main
-- **Nguoi thuc hien:** Nguyen Duc Trung (MSSV: 2A202603423)
-- **Nhanh nguon:** NguyenDucTrung-2A202603423
+### Luot gop #005: Nhanh DoMinhHieu -> main
+- **Nguoi thuc hien:** Do Minh Hieu (MSSV: 2A202603402)
+- **Nhanh nguon:** DoMinhHieu
 - **Nhanh dich:** main
-- **Thoi gian:** 2026-11-09 12:19
-- **Ma Commit (Git log hash):** [Chuan bi commit]
-- **Thong diep commit:** "Hoan thien bang cham diem 2.4 va bo sung dan chung nguon so lieu trong group_report.md"
+- **Thoi gian:** 2026-11-09 12:29
+- **Ma Commit (Git log hash):** df925a2
+- **Thong diep commit:** group_report 2.1-2.2: sync pitch rows from main, fill cluster table
 
 | Muc thong tin | Chi tiet khai bao |
 |---|---|
-| **Cac file da sua / tao moi** | `report/team/group_report.md` (dong 61 den 77, muc 2.4 Chấm điểm shortlist) |
-| **Noi dung cong viec da lam** | Cham diem 7 tieu chi cho shortlist 3 candidate (#1 Vincom, #7 Don hang Dai Loan, #12 Tai lieu nhom chat); bo sung dan chung va nguon so lieu cu the |
-| **Muc dich su dung AI** | Ho tro tong hop so lieu nghien cuu va danh gia tieu chi theo dung thang diem 1-5 |
-| **AI da giup duoc gi** | Trich xuat day du so lieu thuc te tu OnePoll, Q&Me, log don hang 10-09 cua Hieu va bao cao Microsoft/McKinsey |
-| **AI da sai hoac hoi hot o dau** | Khong co sai sot |
-| **Toi da tu sua lai bang nhan dinh gi** | Giu nguyen phan duoi bang (Candidate duoc chon, ly do...) chua sua theo dung chi dao |
-| **Trang thai kiem tra truoc khi gop** | Dinh dang bang bieu ro rang, khong gay conflict voi cac muc khac |
+| **Cac file da sua / tao moi** | `report/team/group_report.md` (muc 2.2 Cluster) |
+| **Noi dung cong viec da lam** | Gom 12 candidate thanh 3 cluster (A, B, C) theo pattern chung ve xu ly du lieu, tra cuu va kiem tra ho so |
+| **Muc dich su dung AI** | Ho tro nhan dien pattern chung giua cac problem |
+| **AI da giup duoc gi** | Phân cum hop ly giua cac bai toan van hanh va bai toan hoc tap |
+| **AI da sai hoac hoi hot o dau** | Khong co |
+| **Toi da tu sua lai bang nhan dinh gi** | Tu xac lap 3 pattern ro rang theo ban chat quy trinh cong viec |
+| **Trang thai kiem tra truoc khi gop** | Khong anh huong den bang Pitch |
+
+---
+
+### Luot gop #006: Nhanh NguyenDucTrung-2A202603423 -> main
+- **Nguoi thuc hien:** Nguyen Duc Trung (MSSV: 2A202603423)
+- **Nhanh nguon:** NguyenDucTrung-2A202603423
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 12:45
+- **Ma Commit (Git log hash):** [Chuan bi commit]
+- **Thong diep commit:** Hop nhat CP3 hoan chinh: thong tin nhom, pitch 12 hang, cluster, OST, shortlist va quyet dinh chon bai toan #1
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | `report/team/group_report.md` (muc 1, 2.1, 2.2, 2.3, 2.4), `AI_LOG_MR.md`, `TEAM.md` |
+| **Noi dung cong viec da lam** | Hop nhat toan bo noi dung cua Trung, Hieu, Lam; xac dinh bai toan chinh thuc cua nhom la Vincom Retail (#1) |
+| **Muc dich su dung AI** | Ho tro tong hop so lieu, doi chieu git log va xu ly conflict giua cac nhanh |
+| **AI da giup duoc gi** | Gop sach se tat ca dong khong lam mat bat ky bai nao cua thanh vien |
+| **AI da sai hoac hoi hot o dau** | Khong co |
+| **Toi da tu sua lai bang nhan dinh gi** | Nhóm trưởng truc tiep ra soat va quyet dinh giu bai toan Vincom Retail lam de tai chung |
+| **Trang thai kiem tra truoc khi gop** | Da kiem tra toan bo conflict da duoc xu ly triet de |

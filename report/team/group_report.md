@@ -5,10 +5,10 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Trừ Một
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): Gợi ý lộ trình ăn uống và hoạt động giải trí theo ngân sách cho nhóm khách hàng tại TTTM Vincom Retail (Candidate #1).
+- Quyết định cuối: Go / Not Yet / No-Go (sẽ chốt ở CP6)
 
 ---
 
@@ -29,30 +29,32 @@
 | 9 | Đỗ Minh Hiếu | Khi đồng nghiệp nhắn Zalo nhờ lên gấp một đơn, tôi muốn đơn đó tự động đi ngay trong ngày, human intervention minimal, để khách không phải chờ lô hôm sau | Đồng nghiệp (3–5 người), người vận hành | Phải ngồi canh Zalo; khoảng 5–10 đơn/ngày, rải ngẫu nhiên trong ngày | Vấn đề của API bên thứ 3 (Zalo) không hỗ trợ tài khoản cá nhân thì có nhận được thông tin khách hàng và orchestrate tool tự động không? (Khoa) |
 | 10 | Trần Đăng Khoa | Khi nhận đề lab gồm nhiều file, tôi muốn biết thứ tự thực hiện và đầu ra cá nhân cần nộp, để bắt đầu đúng việc và không bỏ sót yêu cầu. | Học viên mới làm lab trên GitHub | Đối chiếu nhiều file để xác định việc cần làm và đầu ra; điểm nghẽn dự kiến, chưa đo thời gian. | Có nhiều bên làm rồi (Trung) |
 | 11 | Trần Đăng Khoa | Khi cần ôn lại một thao tác đã học, tôi muốn tìm đúng đoạn hướng dẫn trong video, để tiếp tục thực hành. | Người học khóa online có video ghi hình | Tìm đúng đoạn trong video dài; điểm nghẽn dự kiến, chưa đo thời gian. | Thời gian xử lý và token, giá cả (Hiếu) |
-| 12 | Trần Đăng Khoa | Khi cần tài liệu đã gửi trong nhóm chat, tôi muốn tìm đúng đường dẫn và phiên bản hiện hành, để tiếp tục công việc mà không phải hỏi lại. | Thành viên nhóm học tập hoặc làm việc | Đối chiếu kết quả tìm kiếm để xác nhận đúng tài liệu và phiên bản; điểm nghẽn dự kiến, chưa đo thời gian. | Cần personal AI cá nhân quản lý trong máy vì vấn đề bảo mật, liệu có bảo mật không, vì AI cá nhân không mạnh bằng AI cloud (Lâm) |
+| 12 | Trần Đăng Khoa | Khi cần tài liệu đã gửi trong nhóm chat, tôi muốn tìm đúng đường dẫn và phiên bản hiện hành, để tiếp tục công việc mà không phải hỏi lại. | Thành viên nhóm học tập hoặc làm việc | Đối chiếu kết quả tìm kiếm để xác nhận đúng tài liệu và phiên bản; điểm nghẽn dự kiến, chưa đo thời gian. | Cần personal AI cá nhân quản lý trong máy vì vấn đề bảo mật nhưng có vấn đề vì AI cá nhân không mạnh bằng AI cloud (Lâm) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A - Phân loại, định tuyến thông tin và dữ liệu | #3 thông tin phản ánh từ người dân, #4 sự cố căn hộ, #7 địa chỉ nhận hàng, #9 yêu cầu qua tin nhắn Zalo | Input là mô tả tự do (chữ viết, chữ đánh máy, hình ảnh), người tiếp nhận cần đọc hiểu và tra cứu để xử lý đúng nơi, đúng người nhận, đúng vấn đề. Bottleneck ở bước đọc hiểu và gán label thủ công. |
+| B - Tìm đúng thông tin từ nhiều nguồn | #1 lộ trình tìm quán ăn, #2 trạm sạc trống, #10 đề lab nhiều file, #11 video hướng dẫn dài, #12 tài liệu trôi trong nhóm chat | Thông tin nằm rải rác ở nhiều nơi, người thực hiện phải tìm và nhận đúng nguồn mới nhất và đúng trạng thái. Bottleneck ở việc tra cứu thủ công dữ liệu. |
+| C - Soạn thảo và kiểm tra hồ sơ trước khi gửi đi | #5 Văn bản yêu cầu, #6 văn bản nhắc nhở, #8 upload bị từ chối | Soạn thảo, kiểm tra văn bản đúng quy tắc mới gửi. Lỗi thường bị phát hiện muộn làm mất thời gian và có thể cả chi phí. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian lên kế hoạch và tìm đường tại TTTM Vincom từ 50 phút xuống dưới 5 phút
+├── Opportunity A: Nhóm bạn mất 15–20 phút tranh cãi vì bất đồng khẩu vị và ngân sách khác nhau (#1)
+├── Opportunity B: Menu và giá cả bị phân tán trên nhiều mạng xã hội, mất công tra cứu thủ công
+└── Opportunity C: Khách hàng không nhớ sơ đồ tầng, phải đi thang cuốn lòng vòng tìm quán dễ trễ giờ
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- "Cần một chatbot AI thông minh trên Zalo" (Đây là giải pháp công cụ, không phải nỗi đau của người dùng).
+- "Cần lắp màn hình cảm ứng tra cứu ở mọi tầng" (Đây là giải pháp thiết bị phần cứng).
+- "Cần tích hợp tính năng tự động thanh toán trên app" (Đây là tính năng công nghệ, chưa giải quyết được khâu phân vân chọn quán).
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
@@ -76,12 +78,20 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
   - Trải nghiệm thực tế học viên: tin nhắn nhóm chat Zalo/Discord trôi nhanh, tài liệu chia sẻ qua nhiều phiên bản không rõ bản mới nhất.
 
 **Candidate được chọn:**
+Candidate #1 — Gợi ý lộ trình ăn uống và hoạt động giải trí theo ngân sách cho nhóm khách hàng tại TTTM Vincom Retail (do Nguyễn Đức Trung đưa ra).
 
 **Vì sao chọn:**
+1. **Tính phổ biến và vừa sức buổi lab (5/5):** Nỗi đau mất 30–50 phút bàn bạc, tranh cãi chọn quán ăn và tìm đường giữa các tầng khi đi đông người là trải nghiệm thực tế của 100% sinh viên và giới trẻ. Nhóm có thể triển khai phỏng vấn The Mom Test ngay lập tức với 5–10 sinh viên xung quanh mà không gặp rào cản truy cập hệ thống.
+2. **Cả nhóm cùng hiểu sâu domain (5/5):** Tất cả 4 thành viên đều thường xuyên đi TTTM Vincom, nắm rõ các phân khúc ẩm thực, mức chi tiêu và hành vi tiêu dùng thực tế.
+3. **So sánh rõ ràng 4 mức can thiệp AI:** Thể hiện rõ sự khác biệt giữa No AI (bảng chỉ dẫn tầng), Rule (bộ lọc theo giá và loại đồ ăn), Workflow (tổng hợp sở thích đa thành viên trong nhóm), và Agent (tự động đặt bàn và thanh toán).
 
 **Vì sao loại các candidate còn lại:**
+1. **Loại Candidate #7 (Chuẩn hóa địa chỉ TMĐT):** Bài toán phụ thuộc vào dữ liệu nội bộ và API sàn cross-border của một doanh nghiệp cụ thể (bạn Hiếu nắm rõ), 3 thành viên còn lại không hiểu sâu domain này (điểm hiểu domain chỉ đạt 3/5) nên khó cùng tham gia phản biện và bảo vệ đồ án.
+2. **Loại Candidate #12 (Tìm tài liệu trong nhóm chat):** Bài toán tìm kiếm thông tin ngữ cảnh (RAG / Search) dễ bị trượt thành dự án quá lớn, quy trình tìm kiếm phụ thuộc vào từng nền tảng Zalo/Discord nên khó chuẩn hóa và khó đo lường impact chính xác trong thời gian ngắn của buổi lab.
 
 **Xử lý bất đồng (nếu có):**
+- *Diễn biến bất đồng:* Ban đầu bạn Lâm bảo vệ mạnh bài toán Vinhomes vì có cấu trúc ranh giới an toàn (Boundary) rất rõ; bạn Hiếu đề xuất bài toán TMĐT vì đã có sẵn dữ liệu lỗi thực tế; bạn Trung bảo vệ bài toán Vincom Retail vì tính đại chúng và khả thi kiểm chứng.
+- *Cách giải quyết:* Nhóm thống nhất không tranh luận theo cảm tính mà sử dụng bảng chấm điểm 7 tiêu chí của Double Diamond. Khi đối chiếu tiêu chí "Vừa sức lab" và "Cả nhóm hiểu domain", bài toán Vincom Retail đạt điểm cao nhất (35/35 điểm). Bạn Lâm và bạn Hiếu đã đồng thuận gác lại bài toán riêng để tập trung toàn lực cùng nhóm triển khai bài toán Vincom cho các checkpoint tiếp theo.
 
 ---
 
