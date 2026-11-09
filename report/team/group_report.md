@@ -8,7 +8,7 @@
 - Tên nhóm: Trừ Một
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Gợi ý lộ trình ăn uống và hoạt động giải trí theo ngân sách cho nhóm khách hàng tại TTTM Vincom Retail (Candidate #1).
-- Quyết định cuối: Go / Not Yet / No-Go (sẽ chốt ở CP6)
+- Quyết định cuối: Go (Triển khai MVP pilot tại Vincom Mega Mall Smart City)
 
 ---
 
