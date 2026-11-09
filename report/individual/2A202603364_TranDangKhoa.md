@@ -9,7 +9,7 @@
 - Họ tên:Trần Đăng Khoa
 - MSSV:2A202603364
 - Email trường (không bắt buộc, repo có thể để public):26ai.khoatd2@vinuni.edu.vn
-- Tên nhóm:tru_mot
+- Tên nhóm: tru_mot
 - Link repo nhóm:https://github.com/NguyenDucTrung999/K5-L3A-Day02-tru_mot-DiscoveryProblemFraming
 
 ---
@@ -44,7 +44,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 3 | Khó tìm đúng tài liệu trong nhóm chat | Có thể khảo sát bằng một nhiệm vụ tìm đường dẫn cụ thể. | Nhóm đã ghim link hoặc có thư mục chung chưa? Tần suất có đủ lớn không? |
 
 ### Problem Card #1
-
+| Trường | Nội dung |
+|---|---|
 | Job Story | Khi nhận bài lab gồm nhiều file, tôi muốn xác định thứ tự làm và đầu ra cá nhân cần nộp, để bắt đầu đúng việc và không bỏ sót yêu cầu. |
 | Actor | Học viên mới tham gia bài lab trên GitHub. |
 | Thời điểm / bối cảnh | Sau khi nhận link đề, trước khi bắt đầu báo cáo cá nhân. |

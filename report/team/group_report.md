@@ -44,17 +44,18 @@
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: Giảm thời gian lên kế hoạch và tìm đường tại TTTM Vincom từ 50 phút xuống dưới 5 phút
-├── Opportunity A: Nhóm bạn mất 15–20 phút tranh cãi vì bất đồng khẩu vị và ngân sách khác nhau (#1)
-├── Opportunity B: Menu và giá cả bị phân tán trên nhiều mạng xã hội, mất công tra cứu thủ công
-└── Opportunity C: Khách hàng không nhớ sơ đồ tầng, phải đi thang cuốn lòng vòng tìm quán dễ trễ giờ
+OUTCOME: Giảm thời gian nhóm khách tại TTTM Vincom thống nhất địa điểm ăn uống và tìm đến nơi, đồng thời bảo đảm phù hợp ngân sách và không trễ hoạt động đã lên lịch.
+├── Opportunity A: Nhóm khách khó thống nhất lựa chọn ăn uống khi các thành viên có sở thích và mức chi tiêu khác nhau.
+├── Opportunity B: Nhóm khách mất công tìm và đối chiếu thông tin món ăn, giá cả để xác định lựa chọn phù hợp.
+└── Opportunity C: Nhóm khách chưa quen vị trí gian hàng và đường di chuyển giữa các tầng, nên khó ước lượng thời gian đến nơi.
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
-- "Cần một chatbot AI thông minh trên Zalo" (Đây là giải pháp công cụ, không phải nỗi đau của người dùng).
-- "Cần lắp màn hình cảm ứng tra cứu ở mọi tầng" (Đây là giải pháp thiết bị phần cứng).
-- "Cần tích hợp tính năng tự động thanh toán trên app" (Đây là tính năng công nghệ, chưa giải quyết được khâu phân vân chọn quán).
+- “Chatbot AI trên Zalo”: là lựa chọn công cụ. Nhu cầu cần làm rõ là tìm đủ thông tin và thống nhất lựa chọn phù hợp.
+- “Màn hình cảm ứng tra cứu ở mọi tầng”: là phương án thiết bị. Nhu cầu cần làm rõ là xác định vị trí và đường đi.
+- “Tự động thanh toán trên app”: là tính năng giao dịch; chưa có bằng chứng cho thấy thanh toán là điểm nghẽn trong phạm vi đang xét.
+
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
