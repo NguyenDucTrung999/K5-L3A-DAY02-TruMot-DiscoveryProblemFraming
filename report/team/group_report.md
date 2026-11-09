@@ -21,9 +21,9 @@
 | 1 | | | | | |
 | 2 | | | | | |
 | 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 4 | Bùi Văn Lâm | Khi phát hiện sự cố hạ tầng/thiết bị trong căn hộ, tôi muốn thông tin được tiếp nhận và giao đúng kỹ thuật viên xử lý để sinh hoạt không bị gián đoạn và không phải gọi điện giục nhiều lần. | Cư dân khu đô thị (CSKH & Kỹ thuật BQL hỗ trợ) | Hàng đợi giờ cao điểm dồn ứ (chờ 10 phút) do CSKH phải đọc hiểu mô tả tự do, xem ảnh và gán việc thủ công (mất 9 phút/ticket). | "Nếu phần lớn sự cố là cơ bản thì dùng form dropdown hoặc Rule là đủ, tại sao cần AI?" (Trung) |
+| 5 | Bùi Văn Lâm | Khi nhận bàn giao căn hộ hoặc yêu cầu bảo hành, tôi muốn các lỗi xây dựng được ghi nhận minh bạch và phân rõ trách nhiệm từng nhà thầu kèm hạn hoàn thành để sửa dứt điểm, không đùn đẩy trách nhiệm. | Cư dân nhận nhà (Kỹ sư BQL & Nhà thầu thi công) | Nhập liệu thủ công từ biên bản giấy punch list và đối soát gói thầu (55 phút/căn); tranh chấp trách nhiệm bảo hành kéo dài 3–5 ngày. | "Làm sao AI phân biệt được lỗi do thi công của nhà thầu hay do cư dân tự làm xước khi dọn đồ vào?" (Hiếu) |
+| 6 | Bùi Văn Lâm | Khi gặp hành vi vi phạm nội quy chung (đỗ xe chắn lối, tiếng ồn đêm), tôi muốn gửi thông tin đến BQL và nhận được thông báo xử lý văn minh, đúng quy định để giữ môi trường yên tĩnh mà không phải cãi vã. | Chuyên viên CSKH BQL (Cư dân phản ánh & Cư dân vi phạm) | Soạn thảo văn bản nhắc nhở/xử phạt viện dẫn điều khoản nội quy thấu tình đạt lý mất 25 phút/văn bản. | "Văn bản AI soạn thảo có đủ khéo léo để không gây leo thang căng thẳng giữa cư dân với BQL không?" (Khoa) |
 | 7 | | | | | |
 | 8 | | | | | |
 | 9 | | | | | |
