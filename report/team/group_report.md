@@ -102,12 +102,12 @@ Candidate #1 — Gợi ý lộ trình ăn uống và hoạt động giải trí 
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 |Việc chọn chỗ ăn và tìm đường tại Vincom gây chậm trễ hoặc bất tiện đáng kể cho nhóm khách.| Value| 5 | 1 | Ưu tiên|
+| 2 |Khác biệt về sở thích và ngân sách khiến nhóm khách khó thống nhất chỗ ăn.|Value |5 |1 |Ưu tiên |
+| 3 |Khách mất công tìm và đối chiếu thông tin món ăn, giá cả trước khi quyết định. |Value |4 |1 |Ưu tiên |
+| 4 |Khách chưa quen vị trí gian hàng nên mất thời gian tìm đường hoặc ước lượng sai thời gian di chuyển. |Value |4 |1 |Ưu tiên |
+| 5 |Nhóm khách có thể xác định ngân sách, sở thích và giờ hẹn đủ rõ để sử dụng hỗ trợ lựa chọn. |Usability |4 |1 |Tìm hiểu sơ bộ |
+
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
@@ -115,26 +115,54 @@ Giả định nhóm kiểm chứng trong buổi này:
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
+Cách đã dùng: Phỏng vấn riêng 3 sinh viên từng đi Vincom cùng bạn bè, mỗi cuộc khoảng 10 phút. Thời gian chọn quán và tìm đường bên dưới là ước lượng theo hồi tưởng của các đối tượng phỏng vấn.
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+Interview snapshot - P1:
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) |P1 - sinh viên, đi Vincom cùng nhóm 4 người, được phỏng vấn trực tiếp |
+| Câu nói đáng nhớ nhất (nguyên văn) |“Tụi mình biết quán ở tầng nào rồi, nhưng người muốn ăn lẩu, người lại bảo đắt quá nên chưa chốt được.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |Trong một lần đi cuối tuần, nhóm đã mua vé xem phim nhưng chưa chọn chỗ ăn. Nhóm cân nhắc ba quán, đổi lựa chọn sau khi xem giá, cuối cùng phải ăn nhanh để kịp phim. |
+| Hiện đang xử lý bằng cách nào (workaround)? |Một người tìm menu trên điện thoại, các bạn còn lại đề xuất quán. Nhóm chốt mức tiền mỗi người rồi chọn lại. |
+| Mất bao lâu, bao lần? |Ước lượng khoảng 20 phút bàn bạc và tra giá, sau đó 5 phút đi đến quán. Hai hoạt động bàn bạc và tra giá diễn ra đồng thời. P1 nhớ có 2 trong 3 chuyến đi gần đây gặp tình huống tương tự. |
+| Insight / opportunity rút ra |Trong trường hợp P1, khó khăn chính là thống nhất sở thích và ngân sách. Việc tìm đường không phải điểm nghẽn đáng kể. Cần kiểm tra nhu cầu thống nhất mức chi trước khi so sánh quán. |
+
+Interview snapshot - P2:
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) |P2 — sinh viên, đi Vincom cùng một người bạn. Phỏng vấn qua cuộc gọi. |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Tụi mình chọn quán từ ở nhà rồi, đến nơi thì cứ lên ăn thôi.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |Trong lần đi gần nhất, hai người chọn quán quen trước khi đến. Họ xem bảng chỉ dẫn và đến quán thuận lợi, không đổi kế hoạch. |
+| Hiện đang xử lý bằng cách nào (workaround)? |Thống nhất quán qua tin nhắn trước chuyến đi; dùng bảng chỉ dẫn tầng tại trung tâm thương mại. |
+| Mất bao lâu, bao lần? |Ước lượng 3 phút trao đổi trước chuyến đi và 5 phút tìm đến quán khi đã vào trung tâm thương mại. P2 không nhớ lần gần đây nào gặp khó khăn đáng kể khi chọn quán. |
+| Insight / opportunity rút ra |P2 là tín hiệu phản bác giả định rằng mọi nhóm khách đều khó chọn quán hoặc tìm đường. Với người đã chọn quán quen từ trước, cách xử lý hiện tại có thể đã đủ. |
+
+Interview snapshot - P3:
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) |P3 — sinh viên, đi Vincom cùng nhóm 5 người. Phỏng vấn trực tiếp. |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Mọi người đồng ý ăn buffet, nhưng phải xem giá cuối tuần rồi mới biết có vừa tiền không.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? |Nhóm thống nhất loại món khá nhanh nhưng phải kiểm tra giá của hai quán. Một hình menu tìm được không rõ còn áp dụng không, nên nhóm gọi hỏi quán trước khi quyết định. |
+| Hiện đang xử lý bằng cách nào (workaround)? |Tìm menu trên trang của quán, gửi ảnh vào nhóm chat và gọi điện để xác nhận giá. |
+| Mất bao lâu, bao lần? |Ước lượng 5 phút thống nhất loại món, 15 phút tìm và xác nhận giá, sau đó 5 phút đi đến quán. P3 nhớ rõ một lần này, còn lần khác thì không nhớ rõ. |
+| Insight / opportunity rút ra |Với P3, điểm nghẽn là xác nhận giá đang áp dụng, không phải gặp bất đồng hay tìm đường. Thông tin giá có nguồn và thời điểm cập nhật rõ là nhu cầu cần tìm hiểu thêm. |
+
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+|Phỏng vấn 3 người |3 người kể 3 chuyến đi khác nhau |P1 và P3 đều kể khó khăn trước khi chốt quán. P1 vướng thống nhất ngân sách và sở thích; P3 vướng xác nhận giá hiện tại của quán.|P2 đã chọn quán trước nên không gặp khó khăn đáng kể. Cả ba trường hợp đều không cho thấy tìm đường là điểm nghẽn chính. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+Ban đầu, nhóm giả định cả việc chọn quán và tìm đường đều làm chuyến đi kéo dài. Trong 3 cuộc phỏng vấn, 2 người gặp khó ở bước chọn quán, còn việc di chuyển không được ghi nhận là trở ngại chính.
+
+Trường hợp P2 cho thấy nếu chọn quán quen có thể không cần hỗ trợ gì mới. Tuy nhiên số người phỏng vấn còn ít, thời gian chỉ là nhớ lại, nên chưa đủ để kết luận mức độ phổ biến của vấn đề.
+
 
 ### 3.3. Research giải pháp đã có
 
