@@ -93,3 +93,24 @@
 | **AI da sai hoac hoi hot o dau** | Ban nhap cua AI chi dua tren noi dung bang Pitch, chua qua thao luan nhom nen chua phai ket luan chung cua nhom |
 | **Toi da tu sua lai bang nhan dinh gi** | Toi tu viet lai ten cluster va pattern chung theo cach hieu cua minh (vi du doi ten cluster A, doi cach goi cho #5), khong chep nguyen ban nhap cua AI |
 | **Trang thai kiem tra truoc khi gop** | Da fetch group truoc khi commit. Nhanh DoMinhHieu chua duoc cap nhat voi main (commit d2e6cbc va 3a1b945); noi dung dong 1-6 va 10-12 duoc dong bo tay tu main, chua merge nen khi gop co the can xu ly xung dot |
+
+
+---
+
+### Luot gop #4: Nhanh [DoMinhHieu] -> main
+- **Nguoi thuc hien:** Do Minh Hieu (MSSV: 2A202603402)
+- **Nhanh nguon:** DoMinhHieu
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 16:25
+- **Ma Commit (Git log hash):** 8c6b984
+- **Thong diep commit:** group_report 3.3: research Google Maps, Tripadvisor, ShopeeFood/Grab
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | report/team/group_report.md muc 3.3 (bang research 3 cong cu) |
+| **Noi dung cong viec da lam** | CP4: dien bang research giai phap da co cho Google Maps, Tripadvisor, ShopeeFood/Grab, kem link da mo duoc |
+| **Muc dich su dung AI** | Goi y 3 cong cu va suggest chuc nang + dinh dang van ban + push len branch |
+| **AI da giup duoc gi** | - |
+| **AI da sai hoac hoi hot o dau** | - |
+| **Toi da tu sua lai bang nhan dinh gi** | Toi tu viet lai noi dung cac cot cua bang va thay doi link nguon |
+| **Trang thai kiem tra truoc khi gop** | Da fetch group truoc khi commit. Chua pull main moi nhat vao nhanh nen khi gop co the can xu ly xung dot |
