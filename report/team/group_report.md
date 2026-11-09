@@ -24,9 +24,9 @@
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
+| 7 | Đỗ Minh Hiếu | Khi khách ghi địa chỉ bằng tiếng Việt/Anh/Hoa lẫn lộn hoặc gửi ảnh, tôi muốn biết đúng cửa hàng khách muốn nhận, để ô `取件門市 (địa chỉ)` không bị trống bằng AI | Người vận hành bàn xử lý đơn | Tra tay địa chỉ → mã cửa hàng chuẩn: 8–18 lượt/ngày (10–20% trong 80–90 đơn) | Dùng AI thì tốc độ có nhanh bằng script không? (Trung) |
+| 8 | Đỗ Minh Hiếu | Khi vừa upload file đơn lên sàn, tôi muốn biết trước dòng nào sẽ bị từ chối, để không phải sửa rồi upload lại | Người vận hành | Chỉ phát hiện lỗi sau khi upload: 17,1–21,4% dòng bị từ chối mỗi lô | AI có đảm bảo bảo mật thông tin khách hàng? (Lâm) |
+| 9 | Đỗ Minh Hiếu | Khi đồng nghiệp nhắn Zalo nhờ lên gấp một đơn, tôi muốn đơn đó tự động đi ngay trong ngày, human intervention minimal, để khách không phải chờ lô hôm sau | Đồng nghiệp (3–5 người), người vận hành | Phải ngồi canh Zalo; khoảng 5–10 đơn/ngày, rải ngẫu nhiên trong ngày | Vấn đề của API bên thứ 3 (Zalo) không hỗ trợ tài khoản cá nhân thì có nhận được thông tin khách hàng và orchestrate tool tự động không? (Khoa) |
 | 10 | | | | | |
 | 11 | | | | | |
 | 12 | | | | | |
