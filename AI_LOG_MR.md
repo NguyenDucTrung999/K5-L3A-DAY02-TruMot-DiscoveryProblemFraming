@@ -104,3 +104,23 @@
 | **AI da sai hoac hoi hot o dau** | Khong co sai sot lon |
 | **Toi da tu sua lai bang nhan dinh gi** | Chon cac bai toan thuc te ve tiep can de lab, video huong dan va tai lieu nhom chat |
 | **Trang thai kiem tra truoc khi gop** | Giu nguyen cac hang 1-9 cua cac ban khac; giu file ca nhan cua Hieu khong bi xoa |
+
+---
+
+### Luot gop #005: Nhanh NguyenDucTrung-2A202603423 -> main
+- **Nguoi thuc hien:** Nguyen Duc Trung (MSSV: 2A202603423)
+- **Nhanh nguon:** NguyenDucTrung-2A202603423
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 12:19
+- **Ma Commit (Git log hash):** [Chuan bi commit]
+- **Thong diep commit:** "Hoan thien bang cham diem 2.4 va bo sung dan chung nguon so lieu trong group_report.md"
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | `report/team/group_report.md` (dong 61 den 77, muc 2.4 Chấm điểm shortlist) |
+| **Noi dung cong viec da lam** | Cham diem 7 tieu chi cho shortlist 3 candidate (#1 Vincom, #7 Don hang Dai Loan, #12 Tai lieu nhom chat); bo sung dan chung va nguon so lieu cu the |
+| **Muc dich su dung AI** | Ho tro tong hop so lieu nghien cuu va danh gia tieu chi theo dung thang diem 1-5 |
+| **AI da giup duoc gi** | Trich xuat day du so lieu thuc te tu OnePoll, Q&Me, log don hang 10-09 cua Hieu va bao cao Microsoft/McKinsey |
+| **AI da sai hoac hoi hot o dau** | Khong co sai sot |
+| **Toi da tu sua lai bang nhan dinh gi** | Giu nguyen phan duoi bang (Candidate duoc chon, ly do...) chua sua theo dung chi dao |
+| **Trang thai kiem tra truoc khi gop** | Dinh dang bang bieu ro rang, khong gay conflict voi cac muc khac |

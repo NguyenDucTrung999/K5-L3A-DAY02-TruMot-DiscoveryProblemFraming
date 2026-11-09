@@ -58,9 +58,22 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| 1. Lộ trình trải nghiệm TTTM Vincom (#1 - Trung) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | **35** |
+| 2. Tra tay địa chỉ nhận hàng Đài Loan (#7 - Hiếu) | 5 | 5 | 5 | 4 | 4 | 5 | 3 | **31** |
+| 3. Tìm tài liệu và phiên bản trong nhóm chat (#12 - Khoa) | 4 | 3 | 4 | 3 | 3 | 4 | 5 | **26** |
+
+**Dẫn chứng và nguồn số liệu cho từng candidate:**
+
+- **Candidate 1 (TTTM Vincom):** 
+  - Khảo sát "Food Indecision" của OnePoll: người dùng mất 16–20 phút/người để chọn món; đi nhóm tranh luận thêm 15 phút.
+  - Nghiên cứu "The Paradox of Choice" (Barry Schwartz) & Khảo sát F&B của Q&Me: đối mặt với trên 40 gian hàng tại TTTM, hiện tượng tê liệt quyết định khiến người trẻ tốn 15–20 phút lướt mạng xã hội so sánh giá.
+  - Đo lường thực tế: thời gian lên kế hoạch và tìm đường mất 45–60 phút (baseline trung bình 50 phút).
+- **Candidate 2 (Xử lý đơn hàng Đài Loan - #7):**
+  - Dữ liệu thực tế từ log vận hành shop hàng Đài Loan: nhật ký xử lý ngày 10-09 có 132 đơn, 10 dòng cần tra tay.
+  - Tần suất: trung bình 80–90 đơn/ngày, tỷ lệ địa chỉ trống/lỗi chiếm 10–20% (tương đương 8–18 lượt tra tay/ngày). Tỷ lệ sàn từ chối first upload từ 17,1% đến 21,4%.
+- **Candidate 3 (Tìm tài liệu nhóm chat - #12):**
+  - Báo cáo khảo sát Microsoft Work Trend Index / McKinsey: nhân viên và học viên tốn trung bình 1,8 giờ/ngày (khoảng 10–15 phút/lần) để tìm kiếm thông tin và tài liệu nội bộ.
+  - Trải nghiệm thực tế học viên: tin nhắn nhóm chat Zalo/Discord trôi nhanh, tài liệu chia sẻ qua nhiều phiên bản không rõ bản mới nhất.
 
 **Candidate được chọn:**
 
