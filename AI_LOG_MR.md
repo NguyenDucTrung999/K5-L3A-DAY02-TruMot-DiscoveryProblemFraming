@@ -110,7 +110,7 @@
 | **Cac file da sua / tao moi** | report/team/group_report.md muc 3.3 (bang research 3 cong cu) |
 | **Noi dung cong viec da lam** | CP4: dien bang research giai phap da co cho Google Maps, Tripadvisor, ShopeeFood/Grab, kem link da mo duoc |
 | **Muc dich su dung AI** | Goi y 3 cong cu va suggest chuc nang + dinh dang van ban + push len branch |
-| **AI da giup duoc gi** | - |
+| **AI da giup duoc gi** | Cung cap thong tin can thiet de viet muc 3.3 |
 | **AI da sai hoac hoi hot o dau** | - |
 | **Toi da tu sua lai bang nhan dinh gi** | Toi tu viet lai noi dung cac cot cua bang va thay doi link nguon |
 | **Trang thai kiem tra truoc khi gop** | Da fetch group truoc khi commit. Chua pull main moi nhat vao nhanh nen khi gop co the can xu ly xung dot |
