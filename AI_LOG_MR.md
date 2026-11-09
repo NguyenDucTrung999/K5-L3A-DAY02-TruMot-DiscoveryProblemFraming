@@ -4,6 +4,27 @@
 
 ---
 
+### Luot sua: Nhanh NguyenDucTrung-2A202603423
+- **Nguoi thuc hien:** Nguyen Duc Trung (MSSV: 2A202603423)
+- **Nhanh nguon:** NguyenDucTrung-2A202603423
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 11:49
+- **Ma Commit (Git log hash):** [Chuan bi commit]
+- **Thong diep commit:** "Cap nhat 3 problem card va 3 cau hoi phan bien vao muc 2.1 pitch trong group_report.md"
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | `report/team/group_report.md` (dong 21 den 23, muc 2.1 Pitch) |
+| **Noi dung cong viec da lam** | Dien 3 Problem Card ca nhan cua Nguyen Duc Trung (#1 Vincom, #2 Xanh SM, #3 Vinhomes) va 3 cau hoi phan bien nhan duoc tu cac thanh vien Hieu, Lam, Khoa |
+| **Muc dich su dung AI** | Ho tro dinh dang bang bieu va tich hop noi dung phan bien vao bao cao nhom |
+| **AI da giup duoc gi** | Chuan hoa cau hoi phan bien ro nghia, dung ngu canh tung bai toan |
+| **AI da sai hoac hoi hot o dau** | Khong co sai sot |
+| **Toi da tu sua lai bang nhan dinh gi** | Tiep nhan cac cau hoi truc tiep tu buoi thao luan that cua cac ban trong nhom |
+| **Trang thai kiem tra truoc khi gop** | Da kiem tra khong bi xung dot dinh dang va khong anh huong den cac dong khac |
+
+---
+
+### Khung mau cho cac luot tiep theo:
 ### Luot gop #___: Nhanh [Ten-Nhanh] -> main
 - **Nguoi thuc hien:** [Ho va Ten] (MSSV: [MSSV])
 - **Nhanh nguon:** [Ten-Nhanh-Cua-Ban]

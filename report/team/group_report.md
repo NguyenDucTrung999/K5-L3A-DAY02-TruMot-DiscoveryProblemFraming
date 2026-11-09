@@ -18,9 +18,9 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 | Nguyễn Đức Trung | Khi đến TTTM Vincom cuối tuần cùng nhóm bạn, tôi muốn có lộ trình gợi ý quán ăn và hoạt động phù hợp ngân sách, để không mất cả tiếng đắn đo và trễ giờ xem phim | Khách hàng nhóm bạn trẻ, gia đình | Bàn bạc, so sánh giá (20 phút) và tìm gian hàng giữa các tầng (15 phút). Tổng mất 50 phút | Khách hàng có thể bỏ qua (skip) những cửa hàng tiềm năng họ muốn ghé khi đi theo lộ trình cố định không, ví dụ bỏ qua quầy lưu niệm trên đường đi? (Hiếu hỏi) |
+| 2 | Nguyễn Đức Trung | Khi trụ sạc xe điện gặp sự cố hỏng súng sạc, tôi muốn nhanh chóng tìm được trạm lân cận còn trụ trống tương thích, để tiếp tục ca chạy không trễ hẹn khách | Tài xế Xanh SM, điều phối viên vận hành | Tra cứu tọa độ GPS và trạng thái trụ sạc trống thủ công (tốn 8–10 phút/lượt) | Đã có nhiều công cụ và bản đồ hỗ trợ trạm sạc tồn tại rồi, liệu việc dùng AI ở đây có thực sự cần thiết không? (Lâm hỏi) |
+| 3 | Nguyễn Đức Trung | Khi tiếp nhận phản ánh hư hỏng từ cư dân qua app, tôi muốn nhanh chóng phân loại đúng lĩnh vực kỹ thuật và phân khu, để giao việc cho đúng tổ phụ trách | Nhân viên trực ban BQL Vinhomes | Đọc hiểu mô tả dân dã và tra cứu lịch trực phân công thủ công (tốn 10 phút/phiếu) | Dữ liệu thông tin cá nhân và phản ánh sự cố của cư dân có được đảm bảo an toàn và bảo mật không? (Khoa hỏi) |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
