@@ -207,38 +207,44 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: **Độ mơ hồ thấp × Độ phức tạp trung bình (Low Ambiguity × Medium Complexity)**.
 
 Vì sao:
+- **Độ mơ hồ thấp:** Mục tiêu đầu ra rất rõ ràng và chuẩn mực: 2 phương án gợi ý lộ trình ăn uống kèm hoạt động giải trí tại TTTM Vincom thỏa mãn đồng thời các ràng buộc cụ thể (ngân sách nhóm, khẩu vị thành viên, thời gian trống, vị trí gian hàng còn mở cửa). Không có sự mơ hồ về mặt ngữ nghĩa hay tranh cãi về cấu trúc kết quả.
+- **Độ phức tạp trung bình:** Hệ thống phải xử lý phối hợp 3 nguồn thông tin khác nhau (tin nhắn văn bản tự do mô tả sở thích của các thành viên, cơ sở dữ liệu danh mục gian hàng kèm khoảng giá và trạng thái mở cửa, bản đồ sơ đồ tầng để tính toán lộ trình di chuyển không bị ngược đường). Quy trình gồm các bước logic nối tiếp nhưng không đòi hỏi AI phải tự động lập luận đa tác tử dài hơi.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | In ấn bản đồ chỉ dẫn giấy tại sảnh; lắp đặt bảng sơ đồ tĩnh phân loại gian hàng theo tầng; phân công thêm nhân viên trực quầy thông tin để giải đáp | Đủ khi khách hàng đi một mình hoặc đã biết chính xác gian hàng muốn đến, không có nhu cầu cá nhân hóa theo nhóm | Khách hàng vẫn mất từ 20 đến 30 phút để đọc và tự tính toán chi phí; không giải quyết được bất đồng sở thích trong nhóm đông người | Không |
+| **Rule** | Xây dựng bộ lọc dropdown tĩnh trên trang web hoặc ứng dụng di động: lọc theo mức giá (< 150.000 VNĐ, 150.000 - 300.000 VNĐ) và loại món ăn (Lẩu, Nướng, Cơm, Đồ uống) | Đủ khi nhóm khách có một người đại diện quyết định hoàn toàn và tiêu chí lựa chọn mang tính phân loại nhị phân rõ ràng | Thất bại trước các yêu cầu ngôn ngữ tự nhiên đa chiều ("người thích ăn lẩu nhưng không quá cay, người ăn chay, vừa ăn vừa xem phim trước 19 giờ"); giao diện chọn lọc nhiều tầng dễ gây quá tải thao tác | Không |
+| **Workflow** | Quy trình phối hợp chuẩn hóa: Dùng Rule lọc sơ bộ dữ liệu gian hàng còn mở cửa và nằm trong khoảng giá -> Dùng mô hình ngôn ngữ lớn (LLM) phân tích văn bản mô tả sở thích của từng bạn để tổng hợp thành 2 lộ trình tối ưu -> Hiển thị cho nhóm khách tự duyệt và lựa chọn | Đủ khi cần xử lý ngôn ngữ tự nhiên phức tạp từ nhiều người nhưng các bước vận hành vẫn được kiểm soát chặt chẽ bằng code định sẵn | Mô hình có thể gợi ý món ăn không đúng thực tế nếu dữ liệu thực đơn từ gian hàng không được cập nhật; cần con người kiểm tra trước khi di chuyển | **Chọn** |
+| **Agent** | Hệ thống tự động phân tích sở thích, tự động gọi API đặt bàn tại nhà hàng, tự động thanh toán tiền cọc qua ví điện tử và tự động thay đổi lịch nếu trễ giờ | Đủ khi toàn bộ hệ thống nhà hàng F&B tại TTTM tích hợp 100% API đặt bàn và thanh toán tự động thời gian thực | Rủi ro đặt nhầm bàn, trừ tiền sai ý muốn của người dùng, chi phí vận hành API đa tác tử rất cao và thiếu tính tin cậy | Không |
 
-**Mức chọn:**
+**Mức chọn:** **Workflow** (kết hợp bộ lọc logic Rule và mô hình ngôn ngữ lớn LLM, có con người kiểm tra và duyệt - Human-in-the-loop).
 
 **Vì sao không chọn mức đơn giản hơn:**
+Phương án Rule đơn thuần chỉ xử lý được các trường dữ liệu có sẵn dạng bảng (giá tiền, tầng số). Tuy nhiên, nguyên nhân cốt lõi gây ra bottleneck 20 phút tranh luận là việc dung hòa khẩu vị đan xen của các thành viên bằng ngôn ngữ tự nhiên (ví dụ: "hôm nay tôi thích ăn thanh đạm nhưng bạn tôi thích lẩu cay"). Rule không có khả năng hiểu ngữ cảnh và suy luận dung hòa sở thích như mô hình ngôn ngữ lớn. Do đó, mức Workflow là can thiệp tối thiểu cần thiết để giải quyết đúng điểm nghẽn.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+| **Prediction** — AI dự đoán / tạo ra gì? | Đề xuất 2 phương án lộ trình tối ưu nhất (gồm 1 địa điểm ăn uống, 1 hoạt động giải trí phụ trợ, lộ trình di chuyển hợp lý giữa các tầng, ước tính tổng chi phí và thời gian) phù hợp nhất với dữ liệu đầu vào của nhóm |
+| **Judgment** — con người cân nhắc, quyết định gì? | Các thành viên trong nhóm bạn cùng xem 2 phương án gợi ý, so sánh mức độ hợp khẩu vị và biểu quyết chọn phương án ưng ý nhất hoặc yêu cầu đổi món |
+| **Action** — hành động cuối cùng là gì, ai làm? | Khách hàng bấm chọn phương án trên màn hình điện thoại, tự di chuyển theo lộ trình chỉ dẫn và tự liên hệ nhân viên quán để gọi món hoặc đặt chỗ |
+| **Outcome** — đo kết quả bằng gì? | Rút ngắn thời gian thống nhất lộ trình từ 50 phút xuống dưới 2 phút; độ lệch chi phí thực tế so với ngân sách đề ra dưới 10%; mức độ hài lòng của khách hàng đạt trên 90% |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | 1. Văn bản nhập tự do về sở thích, số lượng người, thời gian trống và ngân sách nhóm (người dùng nhập trực tiếp). 2. Cơ sở dữ liệu danh mục gian hàng TTTM Vincom gồm vị trí tầng, thực đơn, khoảng giá và giờ mở cửa (dữ liệu có sẵn từ Ban quản lý TTTM) |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Phản hồi trực tiếp từ nút bấm người dùng ("Chọn lộ trình này", "Đổi quán khác", "Báo sai thông tin") và dữ liệu hành vi thực tế (người dùng có bấm xem chi tiết bản đồ của quán được gợi ý không) |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
 - Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
+  Người dùng muốn **được hỗ trợ (augment)**. Dữ liệu khảo sát thực tế cho thấy 100% người được hỏi muốn nắm quyền tự quyết cuối cùng về nơi mình sẽ ăn và số tiền mình sẽ chi tiêu; họ không chấp nhận việc hệ thống tự động đặt bàn hoặc tự động trừ tiền trong thẻ của họ. Khách hàng chỉ cần AI đóng vai trò như một người trợ lý trung gian giúp tổng hợp các luồng ý kiến phân tán thành 2 phương án rõ ràng để nhóm dễ dàng biểu quyết chốt hạ.
+
 - AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+  **Báo nhầm (False Positive - gợi ý sai hoặc ảo giác)** tệ hơn rất nhiều so với bỏ sót (False Negative - không liệt kê hết mọi quán trong TTTM). Nếu AI gợi ý một quán ăn đã đóng cửa, một quán có mức giá vượt xa ngân sách nhóm hoặc một lộ trình di chuyển sai tầng, khách hàng sẽ mất công di chuyển lòng vòng, dẫn đến sự thất vọng và tẩy chay giải pháp. Thiết kế đã xử lý triệt để rủi ro này bằng cách đặt một tầng lọc logic Rule nghiêm ngặt ở đầu vào: chỉ những gian hàng đang hoạt động và có khoảng giá khớp với ngân sách trong cơ sở dữ liệu chính thức mới được đưa vào ngữ cảnh (context) cho LLM xử lý.
 
 ---
 
@@ -246,29 +252,49 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Nhóm khách hàng (từ 2 đến 6 người) đến ăn uống và vui chơi tại các trung tâm thương mại Vincom Retail vào dịp cuối tuần hoặc ngày lễ |
+| **Quy trình** | Khách hàng gửi yêu cầu tự nhiên (số người, ngân sách, khẩu vị) -> Hệ thống lọc dữ liệu gian hàng hợp lệ bằng Rule -> AI xử lý ngôn ngữ và gợi ý 2 lộ trình tối ưu -> Nhóm khách kiểm tra, chọn phương án và đi theo sơ đồ chỉ dẫn |
+| **Bottleneck** | Bước bàn bạc, thỏa hiệp khẩu vị và so sánh giá thực đơn giữa các thành viên (hiện tại mất 20 phút) và bước di chuyển tìm kiếm gian hàng giữa các tầng (hiện tại mất 15 phút) |
+| **Impact** | Tiết kiệm từ 40 đến 50 phút lãng phí cho mỗi nhóm khách; hạn chế tranh cãi bất đồng; tối ưu hóa chi tiêu đúng ngân sách; thúc đẩy doanh thu tiêu dùng chéo giữa ẩm thực và giải trí cho TTTM |
+| **Success Metric** (baseline → target, cách đo) | - Thời gian thống nhất lộ trình và tìm vị trí: giảm từ 50 phút xuống dưới 2 phút (đo bằng thời gian từ lúc nhập yêu cầu đến khi bấm xác nhận lộ trình).<br>- Độ lệch chi tiêu thực tế so với ngân sách dự kiến: dưới 10% (đo qua khảo sát đánh giá nhanh sau bữa ăn).<br>- Tỷ lệ hài lòng của khách hàng: đạt trên 90% (đo bằng tỷ lệ vote tích cực trên giao diện). |
+| **Boundary** | - AI tuyệt đối không được tự động đặt bàn, giữ chỗ hoặc thực hiện giao dịch tài chính trừ tiền người dùng.<br>- AI không được tự bịa ra thông tin gian hàng hoặc gợi ý các quán ăn không có trong danh mục chính thức của TTTM.<br>- AI không được thu thập và lưu trữ thông tin cá nhân nhạy cảm của khách hàng. |
+| **AI intervention point** | Tại bước phân tích yêu cầu ngôn ngữ tự nhiên, dung hòa các sở thích ẩm thực khác nhau và tạo ra 2 kịch bản lộ trình tối ưu kèm chỉ dẫn di chuyển |
+| **Mức chọn** | Workflow (kết hợp bộ lọc logic Rule + LLM sinh kịch bản lộ trình + Con người kiểm tra và lựa chọn) |
+| **Rủi ro & người kiểm tra** | Rủi ro thông tin giá cả thực đơn bị cũ hoặc quán hết bàn; người kiểm tra trực tiếp là khách hàng (xem xét thông tin tóm tắt trước khi bấm chọn) kết hợp cơ chế nhân viên gian hàng cập nhật trạng thái |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| **Actor** | Khách hàng đến TTTM Vincom nói chung | Nhóm khách hàng từ 2 đến 6 người đến TTTM Vincom vào dịp cuối tuần hoặc ngày lễ | Thu hẹp chính xác vào đối tượng chịu điểm nghẽn nặng nề nhất do sự bất đồng ý kiến nhóm |
+| **Quy trình** | Nhập yêu cầu -> Nhận gợi ý -> Đến nơi | Khách nhập yêu cầu -> Rule lọc dữ liệu mở cửa -> LLM đề xuất 2 lộ trình -> Khách duyệt và chọn -> Đi theo sơ đồ tầng | Làm rõ quy trình phối hợp kỹ thuật giữa Rule, AI và bước kiểm tra xác nhận của con người |
+| **AI intervention point** | Chưa xác định rõ (chỉ ghi chung là dùng AI gợi ý) | Xác định chính xác tại bước trích xuất nhu cầu tự nhiên và tổng hợp lộ trình tối ưu đa tiêu chí | Tránh biến toàn bộ quy trình thành một hộp đen không kiểm soát được |
+| **Boundary** | Chỉ ghi không trừ tiền | Bổ sung: không tự đặt bàn, không bịa quán ngoài danh mục, không lưu trữ dữ liệu cá nhân nhạy cảm | Hoàn thiện ranh giới an toàn vận hành và bảo vệ tính xác thực của dữ liệu |
+| **Mức chọn** | Chưa phân loại chính thức | Workflow kết hợp Rule | Phù hợp với ma trận độ mơ hồ thấp và độ phức tạp trung bình |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Tính xác thực gian hàng (Grounding) | 100% gian hàng được gợi ý có thật, đúng tên, đúng vị trí tầng và đang trong trạng thái mở cửa theo dữ liệu TTTM | Gợi ý gian hàng không có trong TTTM, sai tầng hoặc gian hàng đã ngừng hoạt động |
+| 2 | Phù hợp ngân sách (Budget Alignment) | Tổng chi phí ước tính trung bình trên mỗi người của lộ trình nằm trong khoảng +/- 10% so với ngân sách người dùng yêu cầu | Chi phí ước tính vượt quá 10% ngân sách đề ra mà không có cảnh báo rõ ràng |
+| 3 | Dung hòa khẩu vị (Preference Matching) | Lộ trình ẩm thực đáp ứng được ít nhất một tiêu chí mong muốn của các thành viên hoặc có giải pháp dung hòa hợp lý | Bỏ qua hoàn toàn sở thích cốt lõi của một thành viên mà không giải thích lý do |
+| 4 | Tính khả thi di chuyển (Feasible Route) | Thứ tự di chuyển giữa các tầng liền mạch (ví dụ: ăn tầng 4 -> uống trà tầng 4 -> xem phim tầng 5), không bắt khách di chuyển ngược tầng lặp lại | Lộ trình bắt người dùng di chuyển lên xuống cầu thang nhiều lần vô lý (tầng 4 xuống tầng 1 rồi lại lên tầng 5) |
+
+**Bộ test case eval mẫu cho bước AI (Bonus B3):**
+
+| # | Scenario & Input (Yêu cầu đầu vào) | Output mong đợi từ AI | Đánh giá theo tiêu chí (1: Xác thực, 2: Ngân sách, 3: Khẩu vị, 4: Lộ trình) | Kết luận |
+|---:|---|---|---|---|
+| 1 | Nhóm 3 người, ngân sách 150.000 VNĐ/người, thích ăn gà rán, sau đó đi uống trà sữa, có 90 phút | Đề xuất Lộ trình 1: Lotteria (Tầng B1, ~85.000 VNĐ) -> TocoToco (Tầng B1, ~45.000 VNĐ). Tổng: 130.000 VNĐ/người, di chuyển cùng tầng B1 | Tiêu chí 1: Đạt (quán có thật). Tiêu chí 2: Đạt (130k < 150k). Tiêu chí 3: Đạt (đủ gà rán và trà sữa). Tiêu chí 4: Đạt (cùng tầng B1) | **Đạt** |
+| 2 | Nhóm 4 người, ngân sách 300.000 VNĐ/người, 2 người thích lẩu, 1 người ăn thanh đạm, xem phim lúc 20h | Đề xuất: Lẩu nấm Ashima hoặc Haidilao chọn ngăn nước lẩu nấm thanh đạm (Tầng 5, ~280.000 VNĐ), cách rạp CGV Tầng 5 50 mét | Tiêu chí 1: Đạt. Tiêu chí 2: Đạt (280k/người). Tiêu chí 3: Đạt (dung hòa lẩu và thanh đạm). Tiêu chí 4: Đạt (cùng tầng 5 sát rạp phim) | **Đạt** |
+| 3 | Nhóm 2 người, ngân sách 100.000 VNĐ/người, chỉ muốn đồ ngọt và chụp ảnh đẹp | Đề xuất: Highlands Coffee ban công (Tầng 1) hoặc The Coffee House (Tầng 2, view thoáng, ~60.000 - 80.000 VNĐ) | Tiêu chí 1: Đạt. Tiêu chí 2: Đạt. Tiêu chí 3: Đạt. Tiêu chí 4: Đạt | **Đạt** |
+| 4 | Nhóm 5 người gia đình có trẻ nhỏ, ngân sách 200.000 VNĐ/người, ăn trưa sau đó cho bé chơi | Đề xuất: Pizza Company (Tầng 3, combo gia đình ~160.000 VNĐ/người) -> Khu vui chơi tiNiWorld (Tầng 3, ngay cạnh quán) | Tiêu chí 1: Đạt. Tiêu chí 2: Đạt. Tiêu chí 3: Đạt. Tiêu chí 4: Đạt (cùng tầng 3 tiện cho trẻ nhỏ) | **Đạt** |
+| 5 | Nhóm 2 người ăn chay hoàn toàn, ngân sách 250.000 VNĐ/người | Đề xuất: Nhà hàng Chay hoặc nhà hàng Thái có thực đơn chay riêng biệt tại Tầng 4, chi phí dự kiến 220.000 VNĐ/người | Tiêu chí 1: Đạt. Tiêu chí 2: Đạt. Tiêu chí 3: Đạt (đáp ứng đúng đồ chay). Tiêu chí 4: Đạt | **Đạt** |
+| 6 | Nhóm 4 người yêu cầu quán bia tươi ngoài trời lúc 12h đêm tại TTTM | AI phản hồi lịch sự: TTTM đóng cửa lúc 22h00 và không có mô hình bia ngoài trời, gợi ý đổi sang nhà hàng đồ uống mở cửa ban ngày | Tiêu chí 1: Đạt (không bịa quán mở đêm). Tiêu chí 2: Đạt. Tiêu chí 3: Đạt (giải thích giới hạn quy định). Tiêu chí 4: Đạt | **Đạt** |
+| 7 | Nhóm 3 người ngân sách 50.000 VNĐ/người muốn ăn buffet nướng hải sản | AI cảnh báo ngân sách không đủ cho buffet nướng (tối thiểu 250.000 VNĐ), gợi ý chuyển sang đồ ăn nhanh hoặc bánh mì kem tại Tầng B1 | Tiêu chí 1: Đạt. Tiêu chí 2: Đạt (trung thực về giá). Tiêu chí 3: Đạt (hướng dẫn thay thế). Tiêu chí 4: Đạt | **Đạt** |
+| 8 | Nhóm 4 người muốn ăn món Hàn Quốc cay nồng, ngân sách 180.000 VNĐ/người | Đề xuất: Dookki Lẩu Tokpokki buffet bánh gạo cay (Tầng 3, giá niêm yết 169.000 VNĐ/người gồm thuế) | Tiêu chí 1: Đạt. Tiêu chí 2: Đạt (169k/người). Tiêu chí 3: Đạt (đúng món Hàn cay). Tiêu chí 4: Đạt | **Đạt** |
+| 9 | Nhóm 2 người muốn tìm quán ăn có ổ cắm sạc laptop làm việc yên tĩnh | Đề xuất: Trung Nguyên Legend (Tầng 2, góc yên tĩnh có ổ điện) kèm thông tin giá đồ uống (~65.000 - 95.000 VNĐ) | Tiêu chí 1: Đạt. Tiêu chí 2: Đạt. Tiêu chí 3: Đạt (đúng nhu cầu làm việc). Tiêu chí 4: Đạt | **Đạt** |
+| 10 | Nhóm bạn muốn đi ăn sau khi xem xong suất chiếu phim 21h30 | AI lọc danh sách các quán có bếp hoạt động sau 21h30 tại Tầng 4 và Tầng B1, cảnh báo các quán đóng cửa lúc 21h30 | Tiêu chí 1: Đạt (kiểm tra giờ đóng cửa). Tiêu chí 2: Đạt. Tiêu chí 3: Đạt. Tiêu chí 4: Đạt (tính toán thời gian) | **Đạt** |
 
 ---
 
@@ -278,31 +304,46 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Khách hàng có thật sự cần và sẽ dùng không? | **Thấp** (An toàn) | Bằng chứng kiểm chứng cho thấy 100% người được hỏi đều thừa nhận mất nhiều thời gian chọn quán khi đi nhóm đông người; nhu cầu có người gợi ý phương án dung hòa là có thật và diễn ra đều đặn hàng tuần. |
+| **Usability** | Khách hàng có dùng được, có hiểu và sửa được đầu ra của AI không? | **Thấp** (An toàn) | Giao diện hiển thị trực quan dạng 2 thẻ lộ trình so sánh song song; người dùng chỉ cần thao tác chạm chọn hoặc bấm "Đổi quán khác" rất đơn giản, không đòi hỏi kỹ năng phức tạp. |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để triển khai không? | **Thấp đến Trung bình** (Kiểm soát được) | Dữ liệu vị trí gian hàng và sơ đồ tầng có sẵn từ ban quản lý TTTM. Công nghệ sử dụng các mô hình ngôn ngữ lớn phổ biến kết hợp gọi API chuẩn và kỹ thuật Prompt Engineering định dạng JSON, không cần huấn luyện mô hình riêng. |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **Thấp** (An toàn) | Chi phí gọi API LLM ở mức rất rẻ (dưới 100 VNĐ cho mỗi lượt truy vấn gợi ý). Ranh giới an toàn không lưu dữ liệu cá nhân giúp đảm bảo tuyệt đối quy định bảo mật. Ban quản trị số của Vincom Retail hoàn toàn có thể tiếp nhận và vận hành lâu dài. |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** **Go** (Triển khai thử nghiệm pilot).
 
 **Lý do:**
+Cả 4 khía cạnh rủi ro đều ở mức Thấp hoặc Thấp đến Trung bình, không có rủi ro nào ở mức Cao. Bài toán giải quyết trực tiếp một điểm nghẽn có thật, có tần suất cao và đo lường được bằng số phút cụ thể. Giải pháp ứng dụng mô hình Workflow có sự kết hợp chặt chẽ giữa logic Rule lọc dữ liệu chính thống và AI xử lý ngôn ngữ tự nhiên, đảm bảo tính an toàn và khả thi cao trong thực tế.
 
 **Nếu Go — pilot nhỏ nhất:**
+Triển khai thử nghiệm phiên bản MVP dạng trang web di động rút gọn (truy cập qua mã QR đặt tại các bảng thông tin sảnh và cổng ra vào) áp dụng riêng cho một trung tâm thương mại cụ thể: **Vincom Mega Mall Smart City** trong vòng 4 tuần. Giới hạn danh mục ở 35 gian hàng F&B và dịch vụ giải trí chính.
 
 **Nếu Not Yet — cần kiểm chứng gì trước:**
+Không áp dụng (nhóm tự tin chọn Go).
 
 **Nếu No-Go — nên làm gì thay AI:**
+Không áp dụng.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Ngưỡng dừng:**
+"Nếu sau 2 tuần triển khai pilot thực tế mà tỷ lệ người dùng phải tự tìm quán thủ công lại vượt quá 30%, hoặc tỷ lệ phản hồi tiêu cực về việc sai lệch giá/quán đã đóng cửa vượt quá 5%, nhóm sẽ dừng tính năng gợi ý lộ trình bằng AI và quay về giao diện danh mục tra cứu tĩnh theo tầng kèm số hotline hỗ trợ."
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- **Hạn chế:**
+  - Chưa cập nhật được tình trạng bàn trống theo thời gian thực tại các quán ăn trong giờ cao điểm do chưa kết nối trực tiếp với phần mềm quản lý bàn (POS) của từng thương hiệu.
+  - Các chương trình ưu đãi giảm giá thẻ ngân hàng hoặc voucher thành viên đôi khi có điều kiện đi kèm phức tạp chưa được tự động cập nhật kịp thời.
+- **Hướng phát triển tiếp theo:**
+  - Giai đoạn 2: Tích hợp API mở với hệ thống máy POS của các gian hàng để hiển thị số lượng bàn trống theo thời gian thực.
+  - Tích hợp thêm tính năng định vị trong nhà (Indoor Positioning System) qua Bluetooth Beacon hoặc Wifi để dẫn đường từng bước (Turn-by-turn navigation) trên sơ đồ 3D cho khách hàng.
 
 ## 10. Tài liệu tham khảo
 
--
+- OnePoll (2022), "Food Indecision Survey: Time spent deciding what to eat in groups", Nghiên cứu thói quen tiêu dùng ẩm thực.
+- Barry Schwartz (2004), "The Paradox of Choice: Why More Is Less", Harper Perennial.
+- Q&Me (2023), Báo cáo nghiên cứu thị trường F&B và thói quen giải trí cuối tuần của giới trẻ tại các trung tâm thương mại lớn.
+- Google PAIR (2019), "People + AI Guidebook: Designing human-centered AI products", Google Inc.
+- Ajay Agrawal, Joshua Gans, Avi Goldfarb (2018), "Prediction Machines: The Simple Economics of Artificial Intelligence", Harvard Business Review Press.
+- Marty Cagan (2017), "Inspired: How to Create Tech Products Customers Love", Silicon Valley Product Group (SVPG).

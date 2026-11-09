@@ -164,16 +164,16 @@ HIEN TAI — Tong thoi gian: 14 phut/phieu
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch Problem Card #1 về tối ưu lộ trình trải nghiệm ẩm thực và giải trí tại TTTM Vincom Retail; giải thích điểm nghẽn 50 phút và đề xuất rút ngắn xuống dưới 2 phút | Cả nhóm thống nhất chọn Problem Card #1 làm Candidate Problem chính của nhóm (đạt 35/35 điểm tại bảng chấm điểm shortlist) |
+| Phản biện bài của bạn khác | Đặt câu hỏi phản biện cho bài của Lâm (#4): "Nếu phần lớn sự cố là cơ bản thì dùng form dropdown hoặc Rule là đủ, tại sao cần AI?"; phản biện bài của Hiếu (#7): "Dùng AI thì tốc độ có nhanh bằng script không?"; phản biện bài của Khoa (#10): "Có nhiều bên làm rồi, điểm khác biệt của bạn là gì?" | Giúp các bạn làm rõ ranh giới giữa Rule và AI, không lạm dụng AI vào những bước mà script hoặc form tĩnh đã giải quyết hiệu quả |
+| Nhận phản biện | Nhận câu hỏi từ Hiếu: "Khách hàng có thể skip những cửa hàng tiềm năng họ muốn ghé khi đi theo map, ví dụ bỏ qua quầy lưu niệm trên đường đi?"; nhận câu hỏi từ Lâm về sự cần thiết của AI; nhận câu hỏi từ Khoa về an toàn dữ liệu | Tôi đã sửa: Bổ sung cơ chế lộ trình linh hoạt (cho phép thêm điểm dừng tự do thay vì ép một tuyến cứng), xác định ranh giới AI chỉ là trợ lý đề xuất gợi ý, không tự động đặt bàn hoặc can thiệp thanh toán, không lưu trữ thông tin cá nhân nhạy cảm |
+| Gom cluster / cây OST | Tham gia phân loại 12 problem vào 3 cụm (Cluster A, B, C); cùng Khoa xây dựng cây Opportunity Solution Tree cho bài toán Vincom | Xác định rõ Outcome duy nhất của nhóm và tách bạch 3 Opportunity về nhu cầu người dùng, loại bỏ các ý tưởng giải pháp đội lốt như chatbot Zalo hay màn hình cảm ứng |
+| Chọn candidate problem | Đại diện bảo vệ bài toán Vincom Retail dựa trên 7 tiêu chí đánh giá; giải thích lý do vì sao bài toán vừa sức và cả nhóm đều hiểu sâu domain | Nhóm đạt được sự đồng thuận tuyệt đối (35/35 điểm), loại bỏ bất đồng quan điểm ban đầu |
+| Kiểm chứng / research | Hỗ trợ định hướng phỏng vấn người dùng theo phương pháp The Mom Test; rà soát các nguồn dữ liệu nghiên cứu thị trường F&B và bán lẻ | Nhóm tập trung khai thác hành vi đã diễn ra trong quá khứ của người dùng thay vì hỏi các câu giả định tương lai |
+| Quy trình nhóm | Cùng Hiếu và Khoa phân tích quy trình hiện tại và quy trình tương lai; xác định điểm nghẽn cốt lõi ở bước bàn bạc chọn món (20 phút) và tìm tầng (15 phút) | Thiết lập được quy trình hybrid: Rule lọc dữ liệu cứng, AI tổng hợp sở thích và đề xuất 2 lộ trình, con người kiểm tra và lựa chọn |
+| Problem Statement | Đóng góp định lượng hóa Success Metric (từ 50 phút xuống dưới 2 phút; độ lệch chi phí dưới 10%) và thiết lập ranh giới an toàn Boundary | Tránh được việc viết Problem Statement chung chung hoặc lồng ghép giải pháp công nghệ |
+| Mức can thiệp AI | Phân tích ma trận độ mơ hồ và độ phức tạp; bảo vệ lựa chọn mức can thiệp là Workflow thay vì Agent hay Rule đơn thuần | Thiết lập được AI Canvas chuẩn xác và giải quyết thấu đáo 2 câu hỏi của Google PAIR |
+| Quyết định | Đánh giá 4 khía cạnh rủi ro sản phẩm (Value, Usability, Feasibility, Viability); đề xuất phạm vi thử nghiệm pilot nhỏ nhất tại Vincom Mega Mall Smart City | Thiết lập được ngưỡng dừng định lượng rõ ràng để kiểm soát rủi ro vận hành |
 
 ---
 
@@ -181,12 +181,12 @@ HIEN TAI — Tong thoi gian: 14 phut/phieu
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm các vấn đề tiềm năng trong vận hành dịch vụ theo 4 lăng kính | Mở rộng góc nhìn về các điểm nghẽn ở khâu chăm sóc khách hàng và bảo dưỡng thiết bị | AI gợi ý một số ý tưởng quá vĩ mô và bất khả thi như "Hệ thống AI tự động lái xe thay thế toàn bộ tài xế taxi" | Tôi loại bỏ hoàn toàn các ý tưởng viển vông, chỉ giữ lại các tác vụ nghiệp vụ có quy trình rõ ràng như đối chiếu ưu đãi chéo và tra cứu lịch bảo dưỡng |
+| CP2 Problem Card | Phản biện tính khả thi và rủi ro của Problem Card #1 | Nhắc nhở rằng mốc thời gian 50 phút có thể không áp dụng cho khách hàng đi một mình | AI gợi ý giải pháp nâng cấp thành Agent tự động đặt cọc giữ chỗ và trừ tiền thẻ ngân hàng của người dùng | Tôi kiên quyết bác bỏ đề xuất Agent tự động trừ tiền vì rủi ro pháp lý và an toàn tài chính; giới hạn phạm vi ở mức Workflow hỗ trợ ra quyết định |
+| CP4 Research | Gợi ý cấu trúc câu hỏi phỏng vấn tìm hiểu hành vi khách hàng tại TTTM | Cung cấp danh mục các khía cạnh cần đào sâu như sự bất đồng khẩu vị và áp lực ngân sách | AI hay sinh ra các câu hỏi giả định viển vông dạng "Bạn có muốn dùng một app AI thông minh gợi ý món ăn không?" | Tôi viết lại toàn bộ câu hỏi theo chuẩn The Mom Test, chỉ hỏi về trải nghiệm thực tế đã xảy ra: "Lần gần nhất đi Vincom cùng nhóm bạn, bạn đã mất bao lâu để chọn được quán?" |
+| CP5 Quy trình | Định dạng sơ đồ luồng quy trình dạng ASCII text | Căn chỉnh khoảng cách các ký tự và vẽ hộp quy trình nhanh chóng, trực quan | AI tự ý gộp bước bàn bạc chọn món và bước di chuyển giữa các tầng thành một bước chung, làm mất điểm nghẽn chính | Tôi tách độc lập thành 4 bước rõ ràng, giữ nguyên số phút đo lường cụ thể cho từng bước |
+| CP5–6 Problem Statement | Rà soát lỗi lồng ghép giải pháp trong Problem Statement | Phát hiện ra từ ngữ mang tính kỹ thuật còn sót lại trong phần mô tả vấn đề | AI đề xuất các chỉ số thành công mang tính định tính chung chung như "nâng cao trải nghiệm ẩm thực" | Tôi thay thế bằng các chỉ số định lượng đo lường được: rút ngắn từ 50 phút xuống dưới 2 phút, độ lệch chi phí dưới 10% |
+| CP6 Mức can thiệp / quyết định | So sánh rủi ro giữa các mức can thiệp Rule, Workflow và Agent | Cung cấp góc nhìn về chi phí API và độ trễ khi triển khai mô hình ngôn ngữ lớn | AI đánh giá rủi ro kỹ thuật ở mức Cao do cho rằng cần phải tự huấn luyện một mô hình ngôn ngữ riêng từ đầu | Tôi sửa lại đánh giá rủi ro kỹ thuật ở mức Thấp đến Trung bình vì giải pháp chỉ cần gọi API mô hình có sẵn kết hợp kỹ thuật Prompt Engineering và cơ sở dữ liệu gian hàng |
 
 ---
 
@@ -196,20 +196,39 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Khi lắng nghe phần trình bày của nhóm, tôi học được rất nhiều từ cách tiếp cận của từng bạn. Bạn Lâm pitch bài sự cố căn hộ (#4) với tư duy rành mạch về quy trình xử lý ticket và ranh giới an toàn. Bạn Hiếu pitch bài tra tay địa chỉ đơn hàng Đài Loan (#7) rất thuyết phục nhờ có số liệu thực tế đo từ log vận hành (tỷ lệ lỗi 10-20% trong 80-90 đơn/ngày). Bạn Khoa pitch bài tìm tài liệu nhóm chat (#12) phản ánh đúng nỗi đau phân tán thông tin. Bài học lớn nhất với tôi là một bài toán tốt phải có điểm nghẽn đo đếm được bằng số phút cụ thể và người trong cuộc đã có phương án xử lý thủ công (workaround) rõ ràng.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Nhóm bị bẫy "solution-first" ở đầu Checkpoint 3 ngay sau khi chọn bài toán Vincom Retail. Các thành viên lập tức bàn đến việc làm Chatbot AI trên Zalo, lắp đặt màn hình cảm ứng tra cứu ở mọi tầng hoặc tính năng tự động thanh toán trên app. Nhóm nhận ra sai lầm khi bắt tay vào vẽ cây Opportunity Solution Tree ở mục 2.3 của báo cáo nhóm: các ý tưởng đó thực chất chỉ là công cụ và tính năng giải pháp đội lốt. Nhóm đã kiên quyết gạch bỏ cả 3 phương án công cụ đó để quay lại tập trung vào Outcome duy nhất và 3 Opportunity cốt lõi: bất đồng khẩu vị/ngân sách, mất công đối chiếu giá thực đơn, và chưa quen đường di chuyển giữa các tầng.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có, tôi đã thay đổi nhận thức rõ rệt sau câu hỏi phản biện của bạn Hiếu: "Khách hàng có thể bỏ qua (skip) những cửa hàng tiềm năng họ muốn ghé khi đi theo lộ trình cố định không, ví dụ bỏ qua quầy lưu niệm trên đường đi?". Ban đầu, tôi thiết kế theo hướng hệ thống đề xuất một lộ trình cứng đóng kín từ rạp phim đến quán ăn. Câu hỏi của Hiếu giúp tôi nhận ra lộ trình cứng nhắc sẽ triệt tiêu trải nghiệm dạo bộ tự do tại TTTM. Tôi đã điều chỉnh thiết kế ngay: hệ thống chỉ đóng vai trò gợi ý lộ trình tham khảo kèm thời gian đệm linh hoạt, cho phép người dùng tùy ý thêm bớt các điểm dừng mua sắm phụ trợ.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Tôi bất ngờ khi thấy khách hàng tốn 45-60 phút chọn quán không phải vì thiếu thông tin, mà do hiện tượng tê liệt quyết định (The Paradox of Choice) khi đối mặt với hơn 40 gian hàng. Nhiều bạn trẻ chia sẻ rằng không ai muốn đứng ra chốt quán vì sợ mếch lòng bạn bè khi không hợp khẩu vị hoặc mức giá. Kết quả kiểm chứng theo hai câu hỏi của Google PAIR cũng chỉ ra 100% người dùng muốn được hỗ trợ (augment) để thu hẹp lựa chọn thành 2 phương án dung hòa cho cả nhóm biểu quyết, chứ tuyệt đối không muốn AI tự động (automate) đặt bàn hay trừ tiền thẻ ngân hàng.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điều khó nhất là bóc tách hoàn toàn giải pháp ra khỏi phần mô tả vấn đề và định lượng hóa Success Metric. Nhóm đã phải biên tập nhiều lần để chuyển từ các câu định tính chung chung thành số liệu đo lường cụ thể: rút ngắn thời gian từ 50 phút xuống dưới 2 phút, độ lệch chi tiêu dưới 10%. Ngoài ra, việc xác lập Boundary an toàn (AI không tự đặt bàn, không trừ tiền tài khoản, không bịa quán đóng cửa) đòi hỏi nhóm phải bám rất sát thực tế vận hành để đảm bảo giải pháp không gây rủi ro cho người dùng.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ thúc đẩy nhóm thực địa bấm giờ trực tiếp tại TTTM Vincom vào giờ cao điểm cuối tuần thay vì chỉ khảo sát học viên trong lớp, nhằm ghi nhận chân thực hơn sự lúng túng của khách hàng trước bảng sơ đồ tầng. Tôi cũng sẽ phản biện nhóm quyết liệt hơn về tính biến động của dữ liệu thực đơn và giá cả để thiết lập cơ chế đồng bộ dữ liệu gian hàng từ ban quản lý ngay từ giai đoạn đầu, hạn chế rủi ro thông tin bị lỗi thời.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Bài toán của nhóm xuất phát từ việc các nhóm bạn trẻ đi chơi tại TTTM Vincom thường mất 45 đến 60 phút bàn bạc chọn quán và di chuyển lòng vòng tìm gian hàng giữa các tầng. Quy trình hiện tại gồm bốn bước thủ công: tìm thông tin, tranh cãi so sánh khẩu vị, di chuyển tìm đường và thanh toán; trong đó khâu thống nhất ý kiến và tìm đường là điểm nghẽn nặng nề nhất. Chỉ số thành công hướng tới việc rút ngắn thời gian lên lộ trình xuống dưới 2 phút, kiểm soát độ lệch chi tiêu thực tế dưới 10% và đạt mức độ hài lòng trên 90%. Ranh giới an toàn xác định rõ hệ thống tuyệt đối không được tự động đặt bàn, không tự trừ tiền ví cá nhân và không gợi ý các gian hàng đã ngừng kinh doanh. Nhóm quyết định lựa chọn mức can thiệp Workflow kết hợp bộ lọc logic Rule để loại bỏ quán đóng cửa và mô hình ngôn ngữ lớn để tổng hợp khẩu vị tự nhiên của nhóm bạn thành 2 lộ trình tối ưu cho người dùng tự lựa chọn. Từ những đánh giá 4 rủi ro sản phẩm đều ở mức kiểm soát được, nhóm đi đến kết luận Go để triển khai thử nghiệm pilot tại Vincom Mega Mall Smart City kèm ngưỡng dừng rõ ràng nếu sau 2 tuần mà tỷ lệ người dùng phải tự tìm quán thủ công vượt quá 30%.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- OnePoll (2022), "Food Indecision Survey: Time spent deciding what to eat in groups", khảo sát thói quen tiêu dùng ẩm thực.
+- Barry Schwartz (2004), "The Paradox of Choice: Why More Is Less", nghiên cứu về sự tê liệt quyết định khi có quá nhiều lựa chọn.
+- Q&Me (2023), Báo cáo nghiên cứu thị trường F&B và hành vi tiêu dùng của giới trẻ tại các trung tâm thương mại Việt Nam.
+- Google PAIR (People + AI Research), "People + AI Guidebook: Designing human-centered AI products".
+- Ajay Agrawal, Joshua Gans, Avi Goldfarb (2018), "Prediction Machines: The Simple Economics of Artificial Intelligence", khung phân tích AI Canvas.
+- Marty Cagan (2017), "Inspired: How to Create Tech Products Customers Love", khung đánh giá 4 rủi ro sản phẩm (Value, Usability, Feasibility, Viability).

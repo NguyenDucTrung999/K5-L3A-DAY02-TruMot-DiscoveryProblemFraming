@@ -164,3 +164,23 @@
 | **AI da sai hoac hoi hot o dau** | Khong co sai sot |
 | **Toi da tu sua lai bang nhan dinh gi** | Tu kiem tra va can chinh lai ly do gach bo cac giai phap cong nghe tra hinh |
 | **Trang thai kiem tra truoc khi gop** | Clean merge 100%, khong bi xung dot |
+
+---
+
+### Luot gop #008: Nhanh NguyenDucTrung-2A202603423 -> main
+- **Nguoi thuc hien:** Nguyen Duc Trung (MSSV: 2A202603423)
+- **Nhanh nguon:** NguyenDucTrung-2A202603423
+- **Nhanh dich:** main
+- **Thoi gian:** 2026-11-09 15:15
+- **Ma Commit (Git log hash):** dang cap nhat
+- **Thong diep commit:** Hoan thanh bao cao ca nhan (muc 4-7) va Goi 4 bao cao nhom (muc 6-10 kem 10 test case eval Bonus B3)
+
+| Muc thong tin | Chi tiet khai bao |
+|---|---|
+| **Cac file da sua / tao moi** | `report/individual/2A202603423_NguyenDucTrung.md` (muc 4, 5, 6, 7), `report/team/group_report.md` (muc 6, 7, 8, 9, 10), `TEAM.md`, `AI_LOG_MR.md` |
+| **Noi dung cong viec da lam** | Hoan thanh bao cao ca nhan cua Nguyen Duc Trung: nhat ky tham gia CP3-CP7, bang su dung AI, reflection hon 200 tu va giai thich chuoi 6 mat xich; Hoan thien Goi 4 bao cao nhom: ma tran mo ho x phuc tap, so sanh 4 muc can thiep, AI Canvas, Google PAIR, Problem Statement v1 kem so sanh v0, tieu chi eval, bo 10 test case eval mau cho Bonus B3, 4 rui ro san pham, quyet dinh Go va nguong dung |
+| **Muc dich su dung AI** | Ho tro ra soat tieu chi Rubric, cau truc bang bieu chuan format va kiem tra tinh nhat quan cua cac con so baseline |
+| **AI da giup duoc gi** | Chuan hoa cau truc AI Canvas va dinh dang bang 10 test case eval ro rang tung truong |
+| **AI da sai hoac hoi hot o dau** | AI danh gia rui ro Feasibility la Cao vi nghi can train model rieng; AI goi y cac chi so thanh cong chung chung |
+| **Toi da tu sua lai bang nhan dinh gi** | Dinh luong hoa tat ca success metric (50 phut -> 2 phut, chenh lech chi phi < 10%); tu viet toan bo reflection ca nhan; thiet lap nguong dung ro rang cho pilot |
+| **Trang thai kiem tra truoc khi gop** | Da kiem tra dong sua chinh xac o Goi 4, khong cham vao Goi 1, 2, 3 cua cac thanh vien khac |
